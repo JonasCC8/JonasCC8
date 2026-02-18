@@ -41,24 +41,56 @@ Established private connectivity between AWS accounts using VPC Peering.
 
 ---
 
-## 🛠 Skills Tecnico
+🛠 Skills Técnicos
+☁ Cloud Platforms
 
-### ☁ Cloud
 AWS (VPC, EC2, S3, IAM, WAF, SNS, Lambda, CloudShell, Route Tables)
 
-### 🔐 Security
-IAM Policies, Bucket Policies, Security Groups, Geo-Blocking, Least Privilege
+Google Cloud Platform (GCP) – Nivel Intermedio
 
-### 🔁 DevOps & Automation
-CodePipeline, Event-Driven Architecture, CLI, CloudShell
+Azure – Nivel Básico
 
-### 🌐 Networking
-VPC Peering, CIDR Design, Route Management, Private Connectivity
+Oracle Cloud Infrastructure (OCI) – Nivel Básico
 
----
-### 📊 Monitoreo y Observabilidad
-Implementación y gestión de monitoreo con Site24x7 y New Relic, incluyendo despliegue y administración de servidor Zabbix.
+🔐 Seguridad
 
+IAM Policies
+
+Bucket Policies
+
+Security Groups
+
+Geo-Blocking
+
+Principio de Mínimo Privilegio
+
+🔁 DevOps & Automatización
+
+AWS CodePipeline
+
+Arquitectura orientada a eventos
+
+AWS CLI
+
+CloudShell
+
+🌐 Networking
+
+VPC Peering
+
+Diseño de CIDR
+
+Gestión de rutas
+
+Conectividad privada multi-cuenta
+
+📊 Monitoreo y Observabilidad
+
+Implementación y gestión con Site24x7
+
+Monitoreo con New Relic
+
+Despliegue y administración de servidor Zabbix
 ---
 ## 📈 Actualmente Mejorando
 
@@ -66,9 +98,6 @@ Implementación y gestión de monitoreo con Site24x7 y New Relic, incluyendo des
 - Arquitecturas Multi-Cuenta con AWS Organizations
 - Diseño avanzado de red con Transit Gateway
 - Estrategias de Cloud Security Monitoring
-- Google Cloud Platform (GCP) – Nivel Intermedio
-- Azure - Nivel Basico
-- Oracle Cloud Infrastructure (OCI)  Nivel Basico
 
 ---
 
