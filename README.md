@@ -67,6 +67,8 @@ Implementación y gestión de monitoreo con Site24x7 y New Relic, incluyendo des
 - Diseño avanzado de red con Transit Gateway
 - Estrategias de Cloud Security Monitoring
 - Google Cloud Platform (GCP) – Nivel Intermedio
+- Azure - Nivel Basico
+- Oracle Cloud Infraestrucrure (OCI) Nivel Basico
 
 ---
 
