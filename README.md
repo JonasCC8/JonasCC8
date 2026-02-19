@@ -44,7 +44,7 @@ Established private connectivity between AWS accounts using VPC Peering.
 🛠 Skills Técnicos
 
 ☁ Cloud Platforms
-- AWS (VPC, EC2, S3, IAM, WAF, SNS, Lambda, CloudShell, Route Tables)
+- AWS (VPC, EC2, ECS, S3, IAM, WAF, SNS, Lambda, CloudShell, Route Tables)
 - Google Cloud Platform (GCP) – Nivel Intermedio
 - Azure – Nivel Básico
 - Oracle Cloud Infrastructure (OCI) – Nivel Básico
