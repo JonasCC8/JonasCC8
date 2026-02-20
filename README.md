@@ -3,9 +3,10 @@
 ![DevOps](https://img.shields.io/badge/DevOps-Automation-green)
 
 # ☁ Jonas Carrillo Carballo  
-### Ingeniero de Infraestructura y Seguridad en la Nube (AWS)
+###Ingeniero de Infraestructura y Seguridad en la Nube (AWS)
 
-Implementando arquitecturas en la nube seguras, escalables y automatizadas en entornos AWS multi-cuenta.
+Especializado en el diseño e implementación de arquitecturas cloud seguras, escalables y automatizadas en entornos AWS multi-cuenta, con enfoque en gobernanza, seguridad y DevOps.
+
 ---
 
 🚀 Sobre Mí  
