@@ -8,15 +8,18 @@
 Implementando arquitecturas en la nube seguras, escalables y automatizadas en entornos AWS multi-cuenta.
 ---
 
-## 🚀 Sobre Mí
+🚀 Sobre Mí  
 Ingeniero enfocado en la nube con experiencia práctica en el diseño e implementación de:
 
-- 🔐 Secure multi-account AWS architectures  
-- 🌐 VPC Peering and cross-account networking  
-- 🛡 WAF security controls and geo-blocking  
-- 🔔 CI/CD pipeline monitoring with SNS + Lambda + Slack  
-- 📦 Cross-account S3 access and data synchronization  
-- 🔑 IAM least-privilege access control  
+🔐 Secure multi-account AWS architectures  
+🏢 AWS Organizations governance with Service Control Policies (SCPs)  
+🌐 VPC Peering and cross-account networking  
+🛡 WAF security controls and geo-blocking  
+🔔 CI/CD pipeline monitoring with SNS + Lambda + Slack  
+🐳 Containerized deployments using ECR + ECS (Fargate)  
+⚙️ Automated CI/CD workflows with CodeBuild and GitHub integration  
+📦 Cross-account S3 access and data synchronization  
+🔑 IAM least-privilege access control  
 
 Enfocado en seguridad, automatización y mejores prácticas en la nube.
 
