@@ -76,9 +76,9 @@ Established private connectivity between AWS accounts using VPC Peering.
 ## 📈 Actualmente Mejorando
 
 - Terraform (Infrastructure as Code)
-- Arquitecturas Multi-Cuenta con AWS Organizations
 - Diseño avanzado de red con Transit Gateway
 - Estrategias de Cloud Security Monitoring
+- Cyberseguridad
 
 ---
 
