@@ -25,56 +25,79 @@ Enfocado en seguridad, automatización y mejores prácticas en la nube.
 
 ---
 
-## 🏗 Proyectos Destacados
+🏗 Proyectos Destacados
 
-### 🔐 AWS IAM Security Lab
+🔐 AWS IAM Security Lab  
 Hardening IAM configurations using least privilege principles.
 
-### 🌍 AWS WAF – Block Region (Asia)
+🌍 AWS WAF – Block Region (Asia)  
 Implemented geo-restriction rules to block traffic from specific regions.
 
-### 🔔 CodePipeline + SNS + Lambda + Slack
+🔔 CodePipeline + SNS + Lambda + Slack  
 Automated deployment notifications to Slack using event-driven architecture.
 
-### 🔁 S3 Cross-Account Access & Sync
+🔁 S3 Cross-Account Access & Sync  
 Configured bucket policies and IAM roles for secure multi-account data sharing.
 
-### 🌐 VPC Peering Cross-Account
+🌐 VPC Peering Cross-Account  
 Established private connectivity between AWS accounts using VPC Peering.
+
+🏢 AWS Organizations – Multi-Account Governance  
+Designed organizational units (OUs), implemented Service Control Policies (SCPs), and centralized security logging across accounts.
+
+🐳 CI/CD Container Deployment (GitHub + CodeBuild + ECR + ECS Fargate)  
+Built an automated container deployment pipeline triggered by GitHub pushes using AWS managed services.
 
 ---
 
-🛠 Skills Técnicos
+## 🛠 Skills Técnicos
 
-☁ Cloud Platforms
-- AWS (VPC, EC2, ECS, S3, IAM, WAF, SNS, Lambda, CloudShell, Route Tables)
+### ☁ Cloud Platforms
+- AWS (VPC, EC2, ECS Fargate, ECR, S3, IAM, WAF, SNS, Lambda, CloudShell, Route Tables, Organizations)
 - Google Cloud Platform (GCP) – Nivel Intermedio
-- Azure – Nivel Básico
+- Microsoft Azure – Nivel Básico
 - Oracle Cloud Infrastructure (OCI) – Nivel Básico
 
-🔐 Seguridad
-- IAM Policies
+---
+
+### 🔐 Seguridad en la Nube
+- IAM Policies & Roles
+- Service Control Policies (SCPs)
 - Bucket Policies
 - Security Groups
-- Geo-Blocking
+- WAF Geo-Blocking
 - Principio de Mínimo Privilegio
+- MFA & Account Hardening
 
-🔁 DevOps & Automatización
+---
+
+### 🔁 DevOps & Automatización
 - AWS CodePipeline
-- Arquitectura orientada a eventos
+- AWS CodeBuild
+- CI/CD con integración GitHub
+- Arquitectura orientada a eventos (SNS + Lambda)
+- Contenerización con Docker
 - AWS CLI
 - CloudShell
 
-🌐 Networking
-- VPC Peering
-- Diseño de CIDR
-- Gestión de rutas
-- Conectividad privada multi-cuenta
+---
 
-📊 Monitoreo y Observabilidad
+### 🌐 Networking
+- VPC Peering (Cross-Account)
+- Diseño de CIDR
+- Gestión de Route Tables
+- Conectividad privada multi-cuenta
+- Arquitecturas multi-account con AWS Organizations
+
+---
+
+### 📊 Monitoreo y Observabilidad
 - Implementación y gestión con Site24x7
-- Monitoreo con New Relic
+- Monitoreo de aplicaciones con New Relic
 - Despliegue y administración de servidor Zabbix
+- Integración de alertas con SNS
+
+  
 ---
 ## 📈 Actualmente Mejorando
 
