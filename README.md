@@ -4,93 +4,133 @@
 ![Security](https://img.shields.io/badge/Focus-Security-blue)
 ![DevOps](https://img.shields.io/badge/DevOps-Automation-green)
 ![Multi-Account](https://img.shields.io/badge/AWS-Multi--Account-232F3E?logo=amazonaws&logoColor=white)
+![Governance](https://img.shields.io/badge/AWS-Governance-232F3E)
+![FinOps](https://img.shields.io/badge/FinOps-Cost%20Optimization-5B2C6F)
+![Serverless](https://img.shields.io/badge/Architecture-Serverless-FF9900)
+![Networking](https://img.shields.io/badge/AWS-Networking-1E90FF)
+![IAM](https://img.shields.io/badge/Security-IAM%20Least%20Privilege-8B0000)
 ![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-Automated-blue)
 
 </p>
-
 # ☁ Jonas Carrillo Carballo  
-### Ingeniero de Infraestructura y Seguridad en la Nube (AWS)
+## Cloud Infrastructure & Security Engineer | AWS | DevOps | FinOps | Multi-Account Architectures
 
-Especializado en el diseño e implementación de arquitecturas cloud seguras, escalables y automatizadas en entornos AWS multi-cuenta, con enfoque en gobernanza, seguridad y DevOps.
+Ingeniero especializado en diseño, implementación y automatización de arquitecturas seguras y escalables en AWS, con experiencia práctica en entornos multi-cuenta, gobernanza cloud, seguridad avanzada y optimización de costos.
 
----
-
-🚀 Sobre Mí  
-Ingeniero enfocado en la nube con experiencia práctica en el diseño e implementación de:
-
-🔐 Secure multi-account AWS architectures  
-🏢 AWS Organizations governance with Service Control Policies (SCPs)  
-🌐 VPC Peering and cross-account networking  
-🛡 WAF security controls and geo-blocking  
-🔔 CI/CD pipeline monitoring with SNS + Lambda + Slack  
-🐳 Containerized deployments using ECR + ECS (Fargate)  
-⚙️ Automated CI/CD workflows with CodeBuild and GitHub integration  
-📦 Cross-account S3 access and data synchronization  
-🔑 IAM least-privilege access control  
-
-Enfocado en seguridad, automatización y mejores prácticas en la nube.
+Enfocado en construir infraestructura confiable, automatizada y alineada a mejores prácticas de seguridad y FinOps.
 
 ---
 
-🏗 Proyectos Destacados
+# 🚀 Sobre Mí
 
-🔐 AWS IAM Security Lab  
-Hardening IAM configurations using least privilege principles.
+Ingeniero cloud con experiencia práctica en:
 
-🌍 AWS WAF – Block Region (Asia)  
-Implemented geo-restriction rules to block traffic from specific regions.
+🔐 Diseño de arquitecturas AWS multi-cuenta con AWS Organizations  
+🏢 Gobernanza mediante Service Control Policies (SCPs)  
+🌐 Networking cross-account con VPC Peering  
+🛡 Seguridad en capa de aplicación con AWS WAF y geo-blocking  
+🔑 Control de acceso basado en principio de mínimo privilegio (IAM)  
+🔁 Automatización orientada a eventos con Lambda + SNS  
+🐳 Despliegue de contenedores con ECR + ECS (Fargate)  
+⚙️ CI/CD automatizado con CodeBuild y GitHub  
+📦 Acceso y sincronización S3 cross-account  
+⏰ Automatización de apagado/encendido RDS para optimización de costos  
+💰 Análisis y remediación de costos con AWS Cost Explorer y automatización con Lambda  
 
-🔔 CodePipeline + SNS + Lambda + Slack  
-Automated deployment notifications to Slack using event-driven architecture.
+Mi enfoque combina:
 
-🔁 S3 Cross-Account Access & Sync  
-Configured bucket policies and IAM roles for secure multi-account data sharing.
-
-🌐 VPC Peering Cross-Account  
-Established private connectivity between AWS accounts using VPC Peering.
-
-🏢 AWS Organizations – Multi-Account Governance  
-Designed organizational units (OUs), implemented Service Control Policies (SCPs), and centralized security logging across accounts.
-
-🐳 CI/CD Container Deployment (GitHub + CodeBuild + ECR + ECS Fargate)  
-Built an automated container deployment pipeline triggered by GitHub pushes using AWS managed services.
-
----
-
-## 🛠 Skills Técnicos
-
-### ☁ Cloud Platforms
-- AWS (VPC, EC2, ECS Fargate, ECR, S3, IAM, WAF, SNS, Lambda, CloudShell, Route Tables, Organizations)
-- Google Cloud Platform (GCP) – Nivel Intermedio
-- Microsoft Azure – Nivel Básico
-- Oracle Cloud Infrastructure (OCI) – Nivel Básico
+- Seguridad
+- Automatización
+- Gobernanza
+- Optimización de costos
+- Arquitecturas escalables
 
 ---
 
-### 🔐 Seguridad en la Nube
+# 🏗 Proyectos Destacados
+
+## 🔐 AWS IAM Security Lab
+Endurecimiento de configuraciones IAM aplicando principio de mínimo privilegio y control granular de accesos.
+
+---
+
+## 🏢 AWS Organizations – Multi-Account Governance
+Diseño de Organizational Units (OUs), implementación de Service Control Policies (SCPs) y centralización de logs de seguridad.
+
+---
+
+## 🌐 VPC Peering Cross-Account
+Implementación de conectividad privada entre cuentas AWS utilizando diseño adecuado de CIDR y gestión de rutas.
+
+---
+
+## 🔁 AWS S3 Cross-Account Access & Sync
+Configuración de Bucket Policies e IAM Roles para acceso entre cuentas y sincronización segura mediante AWS CLI.
+
+---
+
+## 🐳 CI/CD Container Deployment  
+GitHub → CodeBuild → ECR → ECS (Fargate)
+
+Pipeline automatizado de despliegue de contenedores con integración GitHub y servicios administrados de AWS.
+
+---
+
+## 🔔 Event-Driven Notifications (SNS + Lambda + Slack)
+Notificaciones automáticas de despliegues mediante arquitectura orientada a eventos.
+
+---
+
+## 🛡 AWS WAF – Geo Blocking
+Implementación de reglas de restricción geográfica para mitigar tráfico no deseado.
+
+---
+
+## ⏰ RDS Auto Start/Stop Automation
+Automatización de encendido y apagado de instancias RDS mediante Lambda + EventBridge para optimización de costos.
+
+---
+
+## 💰 Cloud Cost Analysis & Remediation (FinOps)
+Análisis de consumo con Cost Explorer, identificación de recursos costosos y aplicación de remediaciones técnicas automatizadas.
+
+---
+
+# 🛠 Skills Técnicos
+
+## ☁ Cloud Platforms
+- AWS (VPC, EC2, ECS Fargate, ECR, S3, IAM, WAF, SNS, Lambda, Organizations, RDS, EventBridge)
+- Google Cloud Platform (Intermedio)
+- Microsoft Azure (Básico)
+- Oracle Cloud Infrastructure (Básico)
+
+---
+
+## 🔐 Seguridad en la Nube
 - IAM Policies & Roles
 - Service Control Policies (SCPs)
 - Bucket Policies
 - Security Groups
 - WAF Geo-Blocking
-- Principio de Mínimo Privilegio
 - MFA & Account Hardening
+- Principio de Mínimo Privilegio
 
 ---
 
-### 🔁 DevOps & Automatización
+## 🔁 DevOps & Automatización
 - AWS CodePipeline
 - AWS CodeBuild
 - CI/CD con integración GitHub
-- Arquitectura orientada a eventos (SNS + Lambda)
-- Contenerización con Docker
+- Arquitectura orientada a eventos
+- Docker
 - AWS CLI
 - CloudShell
+- Automatización de costos con Lambda
 
 ---
 
-### 🌐 Networking
+## 🌐 Networking
 - VPC Peering (Cross-Account)
 - Diseño de CIDR
 - Gestión de Route Tables
@@ -99,22 +139,30 @@ Built an automated container deployment pipeline triggered by GitHub pushes usin
 
 ---
 
-### 📊 Monitoreo y Observabilidad
+## 📊 Monitoreo y Observabilidad
 - Implementación y gestión con Site24x7
-- Monitoreo de aplicaciones con New Relic
+- Monitoreo con New Relic
 - Despliegue y administración de servidor Zabbix
 - Integración de alertas con SNS
 
-  
 ---
-## 📈 Actualmente Mejorando
 
-- Terraform (Infrastructure as Code)
-- Diseño avanzado de red con Transit Gateway
-- Estrategias de Cloud Security Monitoring
-- Cyberseguridad
+# 🎯 Enfoque Profesional
+
+✔ Seguridad primero  
+✔ Automatización como estándar  
+✔ Gobernanza multi-cuenta  
+✔ Optimización continua de costos  
+✔ Arquitecturas escalables y resilientes  
 
 ---
+
+## 📌 Actualmente enfocado en:
+
+- Arquitecturas empresariales en AWS
+- Cloud Security & Governance
+- DevOps Automation
+- Cloud Cost Optimization (FinOps)
 
 ## 📫 Contacto
 
