@@ -1,6 +1,13 @@
+<p align="center">
+
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 ![Security](https://img.shields.io/badge/Focus-Security-blue)
 ![DevOps](https://img.shields.io/badge/DevOps-Automation-green)
+![Multi-Account](https://img.shields.io/badge/AWS-Multi--Account-232F3E?logo=amazonaws&logoColor=white)
+![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-Automated-blue)
+
+</p>
 
 # ☁ Jonas Carrillo Carballo  
 ### Ingeniero de Infraestructura y Seguridad en la Nube (AWS)
