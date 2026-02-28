@@ -104,15 +104,6 @@ Incluye:
 - Alertas por intentos fallidos de login
 - Visualización y análisis de logs
 
-Demuestra habilidades en:
-
-- Seguridad defensiva (Blue Team)
-- Gestión de logs y eventos
-- Arquitectura SIEM
-- Monitoreo de endpoints
-- Hardening en entornos virtualizados
-- Implementación sobre infraestructura on-premise
-
 ---
 
 ## 🐳 Docker Swarm en Proxmox VE
@@ -144,8 +135,6 @@ Incluye:
 - Playbooks idempotentes
 - Uso de Ansible Vault
 - Gestión de roles y variables
-
-Demuestra automatización reproducible y enfoque DevOps aplicado a entornos virtualizados.
 
 ---
 
