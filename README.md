@@ -3,7 +3,6 @@
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 ![Security](https://img.shields.io/badge/Focus-Security-blue)
 ![DevOps](https://img.shields.io/badge/DevOps-Automation-green)
-![Multi-Account](https://img.shields.io/badge/AWS-Multi--Account-232F3E?logo=amazonaws&logoColor=white)
 ![Governance](https://img.shields.io/badge/AWS-Governance-232F3E)
 ![FinOps](https://img.shields.io/badge/FinOps-Cost%20Optimization-5B2C6F)
 ![Serverless](https://img.shields.io/badge/Architecture-Serverless-FF9900)
@@ -18,7 +17,7 @@
 
 # ☁ Jonas Carrillo Carballo  
 
-## Cloud Infrastructure & Security Engineer | AWS | DevOps | FinOps | Virtualization
+## Cloud Infrastructure & Security Engineer | AWS | DevOps | FinOps | SIEM | Virtualization
 
 Ingeniero especializado en diseño, implementación y automatización de arquitecturas seguras y escalables en la nube y entornos virtualizados.
 
@@ -40,6 +39,7 @@ Experiencia práctica en:
 📦 Acceso y sincronización S3 cross-account  
 ⏰ Optimización de costos con automatización  
 🖥 Virtualización y automatización en Proxmox  
+🛡 Implementación de SIEM con Wazuh  
 
 ---
 
@@ -88,6 +88,32 @@ Análisis de consumo con Cost Explorer, identificación de recursos costosos y a
 ---
 
 # 🖥 Proyectos de Infraestructura & Automatización
+
+## 🛡 Implementación de SIEM con Wazuh en Proxmox
+
+Despliegue de plataforma de monitoreo de seguridad (SIEM) utilizando Wazuh sobre contenedor LXC en Proxmox VE, con agente Windows reportando eventos en tiempo real.
+
+Incluye:
+
+- Instalación y configuración de Wazuh Manager
+- Integración de Wazuh Indexer (OpenSearch)
+- Configuración de Wazuh Dashboard
+- Registro y autenticación de agente Windows
+- Monitoreo de eventos de seguridad
+- Detección de creación de usuarios locales
+- Alertas por intentos fallidos de login
+- Visualización y análisis de logs
+
+Demuestra habilidades en:
+
+- Seguridad defensiva (Blue Team)
+- Gestión de logs y eventos
+- Arquitectura SIEM
+- Monitoreo de endpoints
+- Hardening en entornos virtualizados
+- Implementación sobre infraestructura on-premise
+
+---
 
 ## 🐳 Docker Swarm en Proxmox VE
 
@@ -141,6 +167,10 @@ Demuestra automatización reproducible y enfoque DevOps aplicado a entornos virt
 - WAF Geo-Blocking
 - MFA & Account Hardening
 - Principio de Mínimo Privilegio
+- SIEM (Wazuh)
+- Monitoreo de endpoints
+- Análisis de logs
+- Gestión de agentes
 
 ---
 
