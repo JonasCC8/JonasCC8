@@ -11,42 +11,35 @@
 ![IAM](https://img.shields.io/badge/Security-IAM%20Least%20Privilege-8B0000)
 ![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-Automated-blue)
+![Virtualization](https://img.shields.io/badge/Virtualization-Proxmox-E57000)
+![Automation](https://img.shields.io/badge/Automation-Ansible-EE0000?logo=ansible&logoColor=white)
 
 </p>
 
 # ☁ Jonas Carrillo Carballo  
 
-## Cloud Infrastructure & Security Engineer | AWS | DevOps | FinOps | Multi-Account Architectures
+## Cloud Infrastructure & Security Engineer | AWS | DevOps | FinOps | Virtualization
 
-Ingeniero especializado en diseño, implementación y automatización de arquitecturas seguras y escalables en AWS, con experiencia práctica en entornos multi-cuenta, gobernanza cloud, seguridad avanzada y optimización de costos.
+Ingeniero especializado en diseño, implementación y automatización de arquitecturas seguras y escalables en la nube y entornos virtualizados.
 
-Enfocado en construir infraestructura confiable, automatizada y alineada a mejores prácticas de seguridad y FinOps.
+Enfocado en construir infraestructura confiable, automatizada y alineada a mejores prácticas de seguridad, gobernanza y optimización de costos.
 
 ---
 
 # 🚀 Sobre Mí
 
-Ingeniero cloud con experiencia práctica en:
+Experiencia práctica en:
 
-🔐 Diseño de arquitecturas AWS multi-cuenta con AWS Organizations  
+🔐 Arquitecturas AWS multi-cuenta con Organizations  
 🏢 Gobernanza mediante Service Control Policies (SCPs)  
 🌐 Networking cross-account con VPC Peering  
-🛡 Seguridad en capa de aplicación con AWS WAF y geo-blocking  
-🔑 Control de acceso basado en principio de mínimo privilegio (IAM)  
-🔁 Automatización orientada a eventos con Lambda + SNS  
+🛡 Seguridad con WAF y controles IAM  
+🔁 Automatización con Lambda y eventos  
 🐳 Despliegue de contenedores con ECR + ECS (Fargate)  
-⚙️ CI/CD automatizado con CodeBuild y GitHub  
+⚙️ CI/CD automatizado  
 📦 Acceso y sincronización S3 cross-account  
-⏰ Automatización de apagado/encendido RDS para optimización de costos  
-💰 Análisis y remediación de costos con AWS Cost Explorer y automatización con Lambda  
-
-Mi enfoque combina:
-
-- Seguridad
-- Automatización
-- Gobernanza
-- Optimización de costos
-- Arquitecturas escalables
+⏰ Optimización de costos con automatización  
+🖥 Virtualización y automatización en Proxmox  
 
 ---
 
@@ -63,7 +56,7 @@ Diseño de Organizational Units (OUs), implementación de Service Control Polici
 ---
 
 ## 🌐 VPC Peering Cross-Account
-Implementación de conectividad privada entre cuentas AWS utilizando diseño adecuado de CIDR y gestión de rutas.
+Implementación de conectividad privada entre cuentas AWS con diseño adecuado de CIDR y gestión de rutas.
 
 ---
 
@@ -79,11 +72,6 @@ Pipeline automatizado de despliegue de contenedores con integración GitHub y se
 
 ---
 
-## 🔔 Event-Driven Notifications (SNS + Lambda + Slack)
-Notificaciones automáticas de despliegues mediante arquitectura orientada a eventos.
-
----
-
 ## 🛡 AWS WAF – Geo Blocking
 Implementación de reglas de restricción geográfica para mitigar tráfico no deseado.
 
@@ -96,6 +84,42 @@ Automatización de encendido y apagado de instancias RDS mediante Lambda + Event
 
 ## 💰 Cloud Cost Analysis & Remediation (FinOps)
 Análisis de consumo con Cost Explorer, identificación de recursos costosos y aplicación de remediaciones técnicas automatizadas.
+
+---
+
+# 🖥 Proyectos de Infraestructura & Automatización
+
+## 🐳 Docker Swarm en Proxmox VE
+
+Implementación de un cluster Docker Swarm desplegado sobre máquinas virtuales en Proxmox.
+
+Incluye:
+
+- Manager + Worker Nodes
+- Escalamiento horizontal
+- Rolling updates
+- Alta disponibilidad
+- Deploy con docker stack
+- Networking virtualizado
+
+Demuestra conocimientos en virtualización, networking y orquestación de contenedores en entornos on-premise.
+
+---
+
+## ⚙️ Automatización con Ansible en Proxmox VE
+
+Automatización del provisionamiento y configuración de máquinas virtuales utilizando Infrastructure as Code (IaC).
+
+Incluye:
+
+- Creación automática de VMs
+- Configuración remota vía SSH
+- API Tokens
+- Playbooks idempotentes
+- Uso de Ansible Vault
+- Gestión de roles y variables
+
+Demuestra automatización reproducible y enfoque DevOps aplicado a entornos virtualizados.
 
 ---
 
@@ -126,9 +150,9 @@ Análisis de consumo con Cost Explorer, identificación de recursos costosos y a
 - CI/CD con integración GitHub
 - Arquitectura orientada a eventos
 - Docker
+- Ansible
 - AWS CLI
-- CloudShell
-- Automatización de costos con Lambda
+- Automatización con Lambda
 
 ---
 
@@ -137,15 +161,7 @@ Análisis de consumo con Cost Explorer, identificación de recursos costosos y a
 - Diseño de CIDR
 - Gestión de Route Tables
 - Conectividad privada multi-cuenta
-- Arquitecturas multi-account con AWS Organizations
-
----
-
-## 📊 Monitoreo y Observabilidad
-- Implementación y gestión con Site24x7
-- Monitoreo con New Relic
-- Despliegue y administración de servidor Zabbix
-- Integración de alertas con SNS
+- Arquitecturas multi-account
 
 ---
 
@@ -156,21 +172,15 @@ Análisis de consumo con Cost Explorer, identificación de recursos costosos y a
 ✔ Gobernanza multi-cuenta  
 ✔ Optimización continua de costos  
 ✔ Arquitecturas escalables y resilientes  
+✔ Experiencia híbrida Cloud + Virtualización  
 
 ---
-
-## 📌 Actualmente enfocado en:
-
-- Arquitecturas empresariales en AWS
-- Cloud Security & Governance
-- DevOps Automation
-- Cloud Cost Optimization (FinOps)
 
 ## 📫 Contacto
 
 - GitHub: https://github.com/JonasCC8
 - LinkedIn: https://www.linkedin.com/in/jonas-carrillo-33389025/
+
 ---
 
-> Construyendo entornos en la nube seguros con arquitectura escalable y automatización.
->
+> Construyendo entornos en la nube y on-premise seguros, escalables y automatizados.
