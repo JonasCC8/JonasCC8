@@ -206,4 +206,4 @@ Incluye:
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/JonasCC8)
+![Profile Views](https://komarev.com/ghpvc/?username=JonasCC8&color=blue)
