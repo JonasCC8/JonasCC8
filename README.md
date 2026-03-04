@@ -12,7 +12,7 @@
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-Automated-blue)
 ![Virtualization](https://img.shields.io/badge/Virtualization-Proxmox-E57000)
 ![Automation](https://img.shields.io/badge/Automation-Ansible-EE0000?logo=ansible&logoColor=white)
-
+![Profile Views](https://komarev.com/ghpvc/?username=JonasCC8&color=blue)
 </p>
 
 # ☁ Jonas Carrillo Carballo  
@@ -205,5 +205,3 @@ Incluye:
 > Construyendo entornos en la nube y on-premise seguros, escalables y automatizados.
 
 ---
-
-![Profile Views](https://komarev.com/ghpvc/?username=JonasCC8&color=blue)
