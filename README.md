@@ -119,7 +119,6 @@ Incluye:
 - Deploy con docker stack
 - Networking virtualizado
 
-Demuestra conocimientos en virtualización, networking y orquestación de contenedores en entornos on-premise.
 
 ---
 
