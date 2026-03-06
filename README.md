@@ -8,14 +8,17 @@
 ![Serverless](https://img.shields.io/badge/Architecture-Serverless-FF9900)
 ![Networking](https://img.shields.io/badge/AWS-Networking-1E90FF)
 ![IAM](https://img.shields.io/badge/Security-IAM%20Least%20Privilege-8B0000)
-![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker&logoColor=white)
+![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker\&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-Automated-blue)
+![Jenkins](https://img.shields.io/badge/CI%2FCD-Jenkins-D24939?logo=jenkins\&logoColor=white)
 ![Virtualization](https://img.shields.io/badge/Virtualization-Proxmox-E57000)
-![Automation](https://img.shields.io/badge/Automation-Ansible-EE0000?logo=ansible&logoColor=white)
-![Profile Views](https://komarev.com/ghpvc/?username=JonasCC8&color=blue)
+![Automation](https://img.shields.io/badge/Automation-Ansible-EE0000?logo=ansible\&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu\&logoColor=white)
+![Profile Views](https://komarev.com/ghpvc/?username=JonasCC8\&color=blue)
+
 </p>
 
-# ☁ Jonas Carrillo Carballo  
+# ☁ Jonas Carrillo Carballo
 
 ## Cloud Infrastructure & Security Engineer | AWS | DevOps | FinOps | SIEM | Virtualization
 
@@ -29,61 +32,124 @@ Enfocado en construir infraestructura confiable, automatizada y alineada a mejor
 
 Experiencia práctica en:
 
-🔐 Arquitecturas AWS multi-cuenta con Organizations  
-🏢 Gobernanza mediante Service Control Policies (SCPs)  
-🌐 Networking cross-account con VPC Peering  
-🛡 Seguridad con WAF y controles IAM  
-🔁 Automatización con Lambda y eventos  
-🐳 Despliegue de contenedores con ECR + ECS (Fargate)  
-⚙️ CI/CD automatizado  
-📦 Acceso y sincronización S3 cross-account  
-⏰ Optimización de costos con automatización  
-🖥 Virtualización y automatización en Proxmox  
-🛡 Implementación de SIEM con Wazuh  
+🔐 Arquitecturas AWS multi-cuenta con Organizations
+🏢 Gobernanza mediante Service Control Policies (SCPs)
+🌐 Networking cross-account con VPC Peering
+🛡 Seguridad con WAF y controles IAM
+🔁 Automatización con Lambda y eventos
+🐳 Despliegue de contenedores con ECR + ECS (Fargate)
+⚙️ CI/CD automatizado con Jenkins y GitHub
+📦 Acceso y sincronización S3 cross-account
+⏰ Optimización de costos con automatización
+🖥 Virtualización y automatización en Proxmox
+🛡 Implementación de SIEM con Wazuh
+🚀 Deploy automatizado de aplicaciones con Docker
 
 ---
 
 # 🏗 Proyectos Destacados
 
 ## 🔐 AWS IAM Security Lab
+
 Endurecimiento de configuraciones IAM aplicando principio de mínimo privilegio y control granular de accesos.
+
+Incluye:
+
+* Creación de usuarios y roles
+* Políticas IAM personalizadas
+* Restricciones por servicio
+* Aplicación del principio de mínimo privilegio
 
 ---
 
 ## 🏢 AWS Organizations – Multi-Account Governance
-Diseño de Organizational Units (OUs), implementación de Service Control Policies (SCPs) y centralización de logs de seguridad.
+
+Diseño de arquitectura multi-cuenta utilizando AWS Organizations.
+
+Incluye:
+
+* Creación de Organizational Units (OUs)
+* Aplicación de Service Control Policies
+* Centralización de logs
+* Separación de entornos (Dev / Prod)
 
 ---
 
 ## 🌐 VPC Peering Cross-Account
-Implementación de conectividad privada entre cuentas AWS con diseño adecuado de CIDR y gestión de rutas.
+
+Implementación de conectividad privada entre cuentas AWS.
+
+Incluye:
+
+* Diseño de CIDR
+* Configuración de VPC Peering
+* Gestión de Route Tables
+* Comunicación privada entre cuentas
 
 ---
 
 ## 🔁 AWS S3 Cross-Account Access & Sync
-Configuración de Bucket Policies e IAM Roles para acceso entre cuentas y sincronización segura mediante AWS CLI.
+
+Configuración de acceso entre cuentas para buckets S3.
+
+Incluye:
+
+* Bucket Policies
+* IAM Roles
+* Acceso seguro cross-account
+* Sincronización con AWS CLI
 
 ---
 
-## 🐳 CI/CD Container Deployment  
-GitHub → CodeBuild → ECR → ECS (Fargate)
+## 🐳 CI/CD Container Deployment (AWS)
 
-Pipeline automatizado de despliegue de contenedores con integración GitHub y servicios administrados de AWS.
+GitHub → CodeBuild → ECR → ECS Fargate
+
+Pipeline automatizado para despliegue de contenedores.
+
+Incluye:
+
+* Build automático
+* Push a ECR
+* Deploy en ECS Fargate
+* Automatización CI/CD
 
 ---
 
 ## 🛡 AWS WAF – Geo Blocking
-Implementación de reglas de restricción geográfica para mitigar tráfico no deseado.
+
+Implementación de reglas de seguridad para bloquear tráfico por ubicación geográfica.
+
+Incluye:
+
+* Creación de Web ACL
+* Geo Match Rules
+* Protección de aplicaciones web
 
 ---
 
 ## ⏰ RDS Auto Start/Stop Automation
-Automatización de encendido y apagado de instancias RDS mediante Lambda + EventBridge para optimización de costos.
+
+Optimización de costos mediante automatización de bases de datos.
+
+Incluye:
+
+* AWS Lambda
+* Amazon EventBridge
+* Programación automática de apagado y encendido
 
 ---
 
 ## 💰 Cloud Cost Analysis & Remediation (FinOps)
-Análisis de consumo con Cost Explorer, identificación de recursos costosos y aplicación de remediaciones técnicas automatizadas.
+
+Análisis de consumo de recursos en AWS.
+
+Incluye:
+
+* AWS Cost Explorer
+* Identificación de recursos costosos
+* Aplicación de optimizaciones
+* Automatización de ahorro de costos
 
 ---
 
@@ -91,116 +157,145 @@ Análisis de consumo con Cost Explorer, identificación de recursos costosos y a
 
 ## 🛡 Implementación de SIEM con Wazuh en Proxmox
 
-Despliegue de plataforma de monitoreo de seguridad (SIEM) utilizando Wazuh sobre contenedor LXC en Proxmox VE, con agente Windows reportando eventos en tiempo real.
+Despliegue de plataforma SIEM para monitoreo de seguridad.
 
 Incluye:
 
-- Instalación y configuración de Wazuh Manager
-- Integración de Wazuh Indexer (OpenSearch)
-- Configuración de Wazuh Dashboard
-- Registro y autenticación de agente Windows
-- Monitoreo de eventos de seguridad
-- Detección de creación de usuarios locales
-- Alertas por intentos fallidos de login
-- Visualización y análisis de logs
+* Wazuh Manager
+* Wazuh Indexer (OpenSearch)
+* Wazuh Dashboard
+* Agente Windows
+* Monitoreo de eventos de seguridad
+* Alertas por intentos fallidos de login
 
 ---
 
 ## 🐳 Docker Swarm en Proxmox VE
 
-Implementación de un cluster Docker Swarm desplegado sobre máquinas virtuales en Proxmox.
+Cluster de contenedores desplegado sobre máquinas virtuales en Proxmox.
 
 Incluye:
 
-- Manager + Worker Nodes
-- Escalamiento horizontal
-- Rolling updates
-- Alta disponibilidad
-- Deploy con docker stack
-- Networking virtualizado
-
+* Manager Node
+* Worker Nodes
+* Escalamiento horizontal
+* Rolling updates
+* Alta disponibilidad
 
 ---
 
 ## ⚙️ Automatización con Ansible en Proxmox VE
 
-Automatización del provisionamiento y configuración de máquinas virtuales utilizando Infrastructure as Code (IaC).
+Provisionamiento automatizado de infraestructura.
 
 Incluye:
 
-- Creación automática de VMs
-- Configuración remota vía SSH
-- API Tokens
-- Playbooks idempotentes
-- Uso de Ansible Vault
-- Gestión de roles y variables
+* Creación automática de VMs
+* Conexión SSH remota
+* API Tokens
+* Playbooks idempotentes
+* Gestión de roles
+
+---
+
+## 🚀 CI/CD Pipeline Jenkins + Proxmox + Docker
+
+Pipeline CI/CD implementado sobre una VM en Proxmox.
+
+Arquitectura del proyecto:
+
+Developer → GitHub → Jenkins → Docker Build → Deploy API
+
+Incluye:
+
+* Instalación de Jenkins en VM Ubuntu
+* Integración con repositorio GitHub
+* Pipeline automatizado
+* Construcción de contenedor Docker
+* Deploy de API
+* Pruebas de endpoint
 
 ---
 
 # 🛠 Skills Técnicos
 
 ## ☁ Cloud Platforms
-- AWS (VPC, EC2, ECS Fargate, ECR, S3, IAM, WAF, SNS, Lambda, Organizations, RDS, EventBridge)
-- Google Cloud Platform (Intermedio)
-- Microsoft Azure (Básico)
-- Oracle Cloud Infrastructure (Básico)
+
+* AWS (VPC, EC2, ECS, ECR, S3, IAM, WAF, Lambda, RDS, EventBridge, Organizations)
+* Google Cloud Platform (Intermedio)
+* Microsoft Azure (Básico)
+* Oracle Cloud Infrastructure (Básico)
 
 ---
 
 ## 🔐 Seguridad en la Nube
-- IAM Policies & Roles
-- Service Control Policies (SCPs)
-- Bucket Policies
-- Security Groups
-- WAF Geo-Blocking
-- MFA & Account Hardening
-- Principio de Mínimo Privilegio
-- SIEM (Wazuh)
-- Monitoreo de endpoints
-- Análisis de logs
-- Gestión de agentes
+
+* IAM Policies & Roles
+* Service Control Policies
+* Security Groups
+* WAF Geo-Blocking
+* MFA
+* Principio de Mínimo Privilegio
+* SIEM con Wazuh
+* Monitoreo de logs
 
 ---
 
 ## 🔁 DevOps & Automatización
-- AWS CodePipeline
-- AWS CodeBuild
-- CI/CD con integración GitHub
-- Arquitectura orientada a eventos
-- Docker
-- Ansible
-- AWS CLI
-- Automatización con Lambda
+
+* Jenkins
+* AWS CodePipeline
+* AWS CodeBuild
+* CI/CD con GitHub
+* Docker
+* Ansible
+* AWS CLI
+* Automatización con Lambda
 
 ---
 
 ## 🌐 Networking
-- VPC Peering (Cross-Account)
-- Diseño de CIDR
-- Gestión de Route Tables
-- Conectividad privada multi-cuenta
-- Arquitecturas multi-account
+
+* VPC Peering
+* Diseño de CIDR
+* Route Tables
+* Arquitecturas multi-account
+* Networking en AWS
 
 ---
 
 # 🎯 Enfoque Profesional
 
-✔ Seguridad primero  
-✔ Automatización como estándar  
-✔ Gobernanza multi-cuenta  
-✔ Optimización continua de costos  
-✔ Arquitecturas escalables y resilientes  
-✔ Experiencia híbrida Cloud + Virtualización  
+✔ Seguridad primero
+✔ Automatización como estándar
+✔ Gobernanza multi-cuenta
+✔ Optimización continua de costos
+✔ Arquitecturas escalables
+✔ Infraestructura híbrida Cloud + On-Premise
 
 ---
 
-## 📫 Contacto
+# 📊 GitHub Stats
 
-- GitHub: https://github.com/JonasCC8
-- LinkedIn: https://www.linkedin.com/in/jonas-carrillo-33389025/
+<p align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=JonasCC8\&show_icons=true\&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JonasCC8\&layout=compact\&theme=tokyonight)
+
+</p>
+
+---
+
+# 📫 Contacto
+
+GitHub
+https://github.com/JonasCC8
+
+LinkedIn
+https://www.linkedin.com/in/jonas-carrillo-33389025/
 
 ---
 
 > Construyendo entornos en la nube y on-premise seguros, escalables y automatizados.
 
----
