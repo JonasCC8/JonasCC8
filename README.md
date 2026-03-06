@@ -274,19 +274,6 @@ Incluye:
 ✔ Infraestructura híbrida Cloud + On-Premise
 
 ---
-
-# 📊 GitHub Stats
-
-<p align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=JonasCC8\&show_icons=true\&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JonasCC8\&layout=compact\&theme=tokyonight)
-
-</p>
-
----
-
 # 📫 Contacto
 
 GitHub
@@ -298,4 +285,17 @@ https://www.linkedin.com/in/jonas-carrillo-33389025/
 ---
 
 > Construyendo entornos en la nube y on-premise seguros, escalables y automatizados.
+
+# 📊 GitHub Stats
+
+<p align="center">
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=JonasCC8&show_icons=true&theme=tokyonight" />
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=JonasCC8&layout=compact&theme=tokyonight" />
+
+</p>
+
+---
+
 
