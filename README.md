@@ -90,8 +90,7 @@ Incluye:
 * Arquitectura tolerante a fallos (self-healing)
 * Monitoreo con CloudWatch
 * Notificaciones por email con SNS
-* Simulación de fallas y pruebas de resiliencia
-  
+*   
 ## 🌐 VPC Peering Cross-Account
 
 Implementación de conectividad privada entre cuentas AWS.
