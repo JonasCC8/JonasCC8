@@ -33,6 +33,10 @@ Enfocado en construir infraestructura confiable, automatizada y alineada a mejor
 Experiencia práctica en:
 
 🔐 Arquitecturas AWS multi-cuenta con Organizations
+☁ Diseño de arquitecturas altamente disponibles (HA) en AWS
+📈 Implementación de Auto Scaling basado en métricas
+📡 Monitoreo y alertamiento con CloudWatch y SNS
+⚖️ Balanceo de carga con Application Load Balancer (ALB)
 🏢 Gobernanza mediante Service Control Policies (SCPs)
 🌐 Networking cross-account con VPC Peering
 🛡 Seguridad con WAF y controles IAM
@@ -74,7 +78,20 @@ Incluye:
 * Separación de entornos (Dev / Prod)
 
 ---
+## 🚀 Arquitectura de Alta Disponibilidad en AWS (ECS + ALB + Auto Scaling + SNS)
 
+Diseño e implementación de una arquitectura altamente disponible en AWS utilizando contenedores y escalamiento automático.
+
+Incluye:
+
+* ECS Fargate distribuido en múltiples Availability Zones
+* Application Load Balancer (ALB) para balanceo de tráfico
+* Auto Scaling basado en métricas de CPU
+* Arquitectura tolerante a fallos (self-healing)
+* Monitoreo con CloudWatch
+* Notificaciones por email con SNS
+* Simulación de fallas y pruebas de resiliencia
+  
 ## 🌐 VPC Peering Cross-Account
 
 Implementación de conectividad privada entre cuentas AWS.
@@ -221,7 +238,7 @@ Incluye:
 
 ## ☁ Cloud Platforms
 
-* AWS (VPC, EC2, ECS, ECR, S3, IAM, WAF, Lambda, RDS, EventBridge, Organizations)
+* AWS (VPC, EC2, ECS Fargate, ECR, S3, IAM, WAF, Lambda, RDS, EventBridge, Organizations, ALB, Auto Scaling, CloudWatch, SNS)
 * Google Cloud Platform (Intermedio)
 * Microsoft Azure (Básico)
 * Oracle Cloud Infrastructure (Básico)
@@ -238,7 +255,8 @@ Incluye:
 * Principio de Mínimo Privilegio
 * SIEM con Wazuh
 * Monitoreo de logs
-
+* Monitoreo y alertamiento (CloudWatch + SNS)
+* Observabilidad básica en arquitecturas distribuidas
 ---
 
 ## 🔁 DevOps & Automatización
