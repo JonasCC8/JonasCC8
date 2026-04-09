@@ -185,7 +185,22 @@ Incluye:
 * Alertas por intentos fallidos de login
 
 ---
+## 📊 Zabbix 7.4 Monitoring Platform (AWS EC2)
 
+Despliegue de plataforma de monitoreo empresarial utilizando Zabbix 7.4 sobre AWS EC2 con agentes en Linux y Windows.
+
+Incluye:
+
+* Implementación de Zabbix Server en EC2 (Ubuntu Server)
+* Configuración de base de datos MySQL
+* Apertura y gestión de puertos (10050 / 10051)
+* Instalación de agentes en Linux y Windows
+* Monitoreo de infraestructura en tiempo real
+* Configuración de hosts y templates
+* Hardening básico del servidor (UFW)
+* Arquitectura escalable para entornos productivos
+
+---
 ## 🐳 Docker Swarm en Proxmox VE
 
 Cluster de contenedores desplegado sobre máquinas virtuales en Proxmox.
@@ -268,6 +283,16 @@ Incluye:
 * Ansible
 * AWS CLI
 * Automatización con Lambda
+---
+
+## 📊 Observabilidad & Monitoring
+
+* Zabbix 7.4 (Server + Agents Linux/Windows)
+* Monitoreo de métricas (CPU, RAM, Network)
+* Configuración de triggers y alertas
+* Templates y discovery en Zabbix
+* Integración de monitoreo en entornos híbridos
+* Troubleshooting basado en métricas
 
 ---
 
