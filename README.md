@@ -37,6 +37,7 @@ Experiencia práctica en:
 📈 Implementación de Auto Scaling basado en métricas
 📡 Monitoreo y alertamiento con CloudWatch y SNS  
 📊 Observabilidad y alertamiento proactivo con Zabbix + Telegram 
+🧯 Troubleshooting e identificación de incidentes en infraestructura  
 ⚖️ Balanceo de carga con Application Load Balancer (ALB)
 🏢 Gobernanza mediante Service Control Policies (SCPs)
 🌐 Networking cross-account con VPC Peering
@@ -118,7 +119,7 @@ Incluye:
 
 ---
 
-## 🐳 CI/CD Container Deployment (AWS)
+## 🐳 CI/CD Pipeline for Containerized Applications (AWS)
 
 GitHub → CodeBuild → ECR → ECS Fargate
 
@@ -186,7 +187,7 @@ Incluye:
 * Alertas por intentos fallidos de login
 
 ---
-## 📊 Zabbix 7.4 Monitoring Platform (AWS EC2)
+## 📊 Zabbix 7.4 Monitoring & Alerting Platform (AWS EC2)
 
 Despliegue de plataforma de monitoreo empresarial utilizando Zabbix 7.4 sobre AWS EC2 con agentes en Linux y Windows.
 
@@ -200,6 +201,8 @@ Incluye:
 * Configuración de hosts y templates
 * Notificaciones en tiempo real vía Telegram
 * Alertamiento automático ante saturación de CPU, memoria y caída de servicios
+* Reducción del tiempo de respuesta ante incidentes gracias a las alertas en tiempo real.
+* Mayor visibilidad del estado y el rendimiento de la infraestructura.
 * Arquitectura escalable para entornos productivos
 
 ---
@@ -287,14 +290,15 @@ Incluye:
 * Automatización con Lambda
 ---
 
-## 📊 Observabilidad & Monitoring
+### 📊 Observabilidad & Monitoreo
 
-* Zabbix 7.4 (Server + Agents Linux/Windows)
-* Monitoreo de métricas (CPU, RAM, Network)
-* Configuración de triggers y alertas
-* Templates y discovery en Zabbix
-* Integración de monitoreo en entornos híbridos
-* Troubleshooting basado en métricas
+* Zabbix (infra monitoring, triggers, alerting, auto-discovery, Linux/Windows agents)
+* AWS CloudWatch (metrics, alarms, dashboards)
+* AWS EventBridge (event-driven alerting & integrations)
+* Log Monitoring & SIEM (Wazuh)
+* New Relic (APM, dashboards, alerting - Foundation Certified)
+* Datadog (metrics, dashboards, alerting - Foundation level)
+* Proactive incident detection & real-time alerting (Telegram integration)
 
 ---
 
