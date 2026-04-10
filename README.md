@@ -55,7 +55,7 @@ Experiencia práctica en:
 
 # 🏗 Proyectos Destacados
 
-## 🔐 AWS IAM Security Lab
+## 🔐 AWS IAM Security 
 
 Endurecimiento de configuraciones IAM aplicando principio de mínimo privilegio y control granular de accesos.
 
