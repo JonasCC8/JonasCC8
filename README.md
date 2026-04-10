@@ -36,6 +36,7 @@ Experiencia práctica en:
 ☁ Diseño de arquitecturas altamente disponibles (HA) en AWS
 📈 Implementación de Auto Scaling basado en métricas
 📡 Monitoreo y alertamiento con CloudWatch y SNS
+📊 Monitoreo de infraestructura y observabilidad con Zabbix (Linux/Windows)
 ⚖️ Balanceo de carga con Application Load Balancer (ALB)
 🏢 Gobernanza mediante Service Control Policies (SCPs)
 🌐 Networking cross-account con VPC Peering
