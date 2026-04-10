@@ -20,11 +20,11 @@
 
 # ☁ Jonas Carrillo Carballo
 
-## Cloud Infrastructure & Security Engineer | AWS | DevOps | FinOps | SIEM | Virtualization
+## Cloud Infrastructure & SRE Engineer | AWS | DevOps | Observability | Security | FinOps | Virtualization
 
-Ingeniero especializado en diseño, implementación y automatización de arquitecturas seguras y escalables en la nube y entornos virtualizados.
+Ingeniero especializado en diseño, implementación y automatización de infraestructuras en la nube, enfocadas en alta disponibilidad, seguridad y escalabilidad.
 
-Enfocado en construir infraestructura confiable, automatizada y alineada a mejores prácticas de seguridad, gobernanza y optimización de costos.
+Enfocado en confiabilidad, observabilidad y respuesta a incidentes en entornos cloud e híbridos.
 
 ---
 
@@ -92,7 +92,7 @@ Incluye:
 * Arquitectura tolerante a fallos (self-healing)
 * Monitoreo con CloudWatch
 * Notificaciones por email con SNS
-*   
+   
 ## 🌐 VPC Peering Cross-Account
 
 Implementación de conectividad privada entre cuentas AWS.
@@ -200,10 +200,11 @@ Incluye:
 * Monitoreo de infraestructura en tiempo real
 * Configuración de hosts y templates
 * Notificaciones en tiempo real vía Telegram
-* Alertamiento automático ante saturación de CPU, memoria y caída de servicios
-* Reducción del tiempo de respuesta ante incidentes gracias a las alertas en tiempo real.
-* Mayor visibilidad del estado y el rendimiento de la infraestructura.
+* Detección proactiva de incidentes (CPU, memoria, disponibilidad de servicios)
+* Reducción del MTTR mediante alertamiento automatizado
+* Mejora en la visibilidad del estado y rendimiento de la infraestructura
 * Arquitectura escalable para entornos productivos
+* Monitoreo de disponibilidad de servicios y health checks
 
 ---
 ## 🐳 Docker Swarm en Proxmox VE
@@ -290,16 +291,16 @@ Incluye:
 * Automatización con Lambda
 ---
 
-### 📊 Observabilidad & Monitoreo
+## 📊 Observabilidad & Monitoreo
 
-* Zabbix (infra monitoring, triggers, alerting, auto-discovery, Linux/Windows agents)
-* AWS CloudWatch (metrics, alarms, dashboards)
-* AWS EventBridge (event-driven alerting & integrations)
-* Log Monitoring & SIEM (Wazuh)
-* New Relic (APM, dashboards, alerting - Foundation Certified)
-* Datadog (metrics, dashboards, alerting - Foundation level)
-* Proactive incident detection & real-time alerting (Telegram integration)
-
+* Zabbix (monitoreo de infraestructura, triggers, alertas, auto-descubrimiento, agentes Linux/Windows)
+* AWS CloudWatch (métricas, alarmas y dashboards)
+* AWS EventBridge (alertamiento basado en eventos e integraciones)
+* Monitoreo de logs y SIEM (Wazuh)
+* New Relic (APM, dashboards y alertamiento - certificación Foundation)
+* Datadog (métricas, dashboards y alertamiento - nivel Foundation)
+* Detección proactiva de incidentes y alertamiento en tiempo real (integración con Telegram)
+* Monitoreo de disponibilidad de servicios y health checks
 ---
 
 ## 🌐 Networking
@@ -322,6 +323,12 @@ Incluye:
 ✔ Infraestructura híbrida Cloud + On-Premise
 
 ---
+# 📈 Impacto
+
+* Implementación de monitoreo proactivo reduciendo tiempos de detección de incidentes  
+* Automatización de alertamiento mejorando la respuesta operativa  
+* Mejora de la confiabilidad y visibilidad de la infraestructura
+  
 # 📫 Contacto
 
 GitHub
