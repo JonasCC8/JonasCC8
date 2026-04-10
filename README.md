@@ -35,8 +35,8 @@ Experiencia práctica en:
 🔐 Arquitecturas AWS multi-cuenta con Organizations
 ☁ Diseño de arquitecturas altamente disponibles (HA) en AWS
 📈 Implementación de Auto Scaling basado en métricas
-📡 Monitoreo y alertamiento con CloudWatch y SNS
-📊 Monitoreo de infraestructura y observabilidad con Zabbix (Linux/Windows)
+📡 Monitoreo y alertamiento con CloudWatch y SNS  
+📊 Observabilidad y alertamiento proactivo con Zabbix + Telegram 
 ⚖️ Balanceo de carga con Application Load Balancer (ALB)
 🏢 Gobernanza mediante Service Control Policies (SCPs)
 🌐 Networking cross-account con VPC Peering
@@ -198,7 +198,8 @@ Incluye:
 * Instalación de agentes en Linux y Windows
 * Monitoreo de infraestructura en tiempo real
 * Configuración de hosts y templates
-* Hardening básico del servidor (UFW)
+* Notificaciones en tiempo real vía Telegram
+* Alertamiento automático ante saturación de CPU, memoria y caída de servicios
 * Arquitectura escalable para entornos productivos
 
 ---
