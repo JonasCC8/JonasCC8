@@ -8,23 +8,23 @@
 ![Serverless](https://img.shields.io/badge/Architecture-Serverless-FF9900)
 ![Networking](https://img.shields.io/badge/AWS-Networking-1E90FF)
 ![IAM](https://img.shields.io/badge/Security-IAM%20Least%20Privilege-8B0000)
-![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker\&logoColor=white)
+![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-Automated-blue)
-![Jenkins](https://img.shields.io/badge/CI%2FCD-Jenkins-D24939?logo=jenkins\&logoColor=white)
+![Jenkins](https://img.shields.io/badge/CI%2FCD-Jenkins-D24939?logo=jenkins&logoColor=white)
 ![Virtualization](https://img.shields.io/badge/Virtualization-Proxmox-E57000)
-![Automation](https://img.shields.io/badge/Automation-Ansible-EE0000?logo=ansible\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu\&logoColor=white)
-![Profile Views](https://komarev.com/ghpvc/?username=JonasCC8\&color=blue)
+![Automation](https://img.shields.io/badge/Automation-Ansible-EE0000?logo=ansible&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-K8s-326CE5?logo=kubernetes&logoColor=white)
+![Observability](https://img.shields.io/badge/Observability-Monitoring-purple)
+![Profile Views](https://komarev.com/ghpvc/?username=JonasCC8&color=blue)
 
 </p>
 
 # ☁ Jonas Carrillo Carballo
 
-## Cloud Infrastructure & SRE Engineer | AWS | DevOps | Observability | Security | FinOps | Virtualization
+## Cloud Infrastructure & SRE Engineer | AWS | DevOps | Kubernetes | Security | FinOps
 
-Ingeniero especializado en diseño, implementación y automatización de infraestructuras en la nube, enfocadas en alta disponibilidad, seguridad y escalabilidad.
-
-Enfocado en confiabilidad, observabilidad y respuesta a incidentes en entornos cloud e híbridos.
+Ingeniero especializado en diseño, implementación y automatización de infraestructuras en la nube y on-premise, enfocado en alta disponibilidad, seguridad y observabilidad.
 
 ---
 
@@ -32,313 +32,228 @@ Enfocado en confiabilidad, observabilidad y respuesta a incidentes en entornos c
 
 Experiencia práctica en:
 
-🔐 Arquitecturas AWS multi-cuenta con Organizations
-☁ Diseño de arquitecturas altamente disponibles (HA) en AWS
-📈 Implementación de Auto Scaling basado en métricas
-📡 Monitoreo y alertamiento con CloudWatch y SNS  
-📊 Observabilidad y alertamiento proactivo con Zabbix + Telegram 
-🧯 Troubleshooting e identificación de incidentes en infraestructura  
-⚖️ Balanceo de carga con Application Load Balancer (ALB)
-🏢 Gobernanza mediante Service Control Policies (SCPs)
-🌐 Networking cross-account con VPC Peering
-🛡 Seguridad con WAF y controles IAM
-🔁 Automatización con Lambda y eventos
-🐳 Despliegue de contenedores con ECR + ECS (Fargate)
-⚙️ CI/CD automatizado con Jenkins y GitHub
-📦 Acceso y sincronización S3 cross-account
-⏰ Optimización de costos con automatización
-🖥 Virtualización y automatización en Proxmox
-🛡 Implementación de SIEM con Wazuh
-🚀 Deploy automatizado de aplicaciones con Docker
+🔐 Arquitecturas AWS multi-cuenta con Organizations  
+☁ Diseño de arquitecturas altamente disponibles (HA)  
+📊 Observabilidad con Zabbix, CloudWatch y métricas en Kubernetes  
+📡 Monitoreo y alertamiento proactivo  
+🧯 Troubleshooting en entornos productivos  
+⚖️ Balanceo de carga (ALB / Kubernetes Services)  
+🌐 Networking avanzado  
+🛡 Seguridad y hardening de sistemas Linux  
+🐳 Contenedores con Docker y Kubernetes  
+⚙️ CI/CD automatizado con Jenkins  
+🖥 Infraestructura on-premise y Cloud
+📈 Optimización de costos (FinOps)  
 
 ---
 
 # 🏗 Proyectos Destacados
 
-## 🔐 AWS IAM Security 
+## 🔐 Linux Server Hardening (Enterprise Security)
 
-Endurecimiento de configuraciones IAM aplicando principio de mínimo privilegio y control granular de accesos.
+Endurecimiento completo de servidores Linux enfocado a producción.
 
 Incluye:
 
-* Creación de usuarios y roles
-* Políticas IAM personalizadas
-* Restricciones por servicio
-* Aplicación del principio de mínimo privilegio
+* Deshabilitación de acceso root por SSH
+* Autenticación con llaves
+* Firewall UFW
+* Protección contra ataques con Fail2ban
+* Auditoría con auditd
+* Hardening del kernel (sysctl)
+* Control de permisos críticos
+* Seguridad en servicios
+* Hardening de PostgreSQL
+* Monitoreo de logs
+
+🔎 Enfoque: Seguridad, cumplimiento y reducción de superficie de ataque
+
+---
+
+## ☸️ Kubernetes Cluster (kubeadm + containerd + OpenLens)
+
+Implementación de clúster Kubernetes desde cero en Ubuntu Server.
+
+Incluye:
+
+* Instalación de Kubernetes con kubeadm
+* Configuración de containerd como runtime
+* Resolución de errores reales:
+  - Swap activo (kubelet failure)
+  - CRI no disponible
+  - cgroups
+* Inicialización del cluster
+* Instalación de red (Calico)
+* Deploy de aplicación (NGINX)
+* Exposición con NodePort
+* Integración con OpenLens
+* Instalación de metrics-server
+* Monitoreo de CPU y memoria (`kubectl top`)
+
+🔎 Enfoque: Infraestructura real tipo producción + troubleshooting
+
+---
+
+## 🛡 AWS IAM Security 
+
+* Políticas personalizadas
+* Roles y usuarios
+* Mínimo privilegio
 
 ---
 
 ## 🏢 AWS Organizations – Multi-Account Governance
 
-Diseño de arquitectura multi-cuenta utilizando AWS Organizations.
-
-Incluye:
-
-* Creación de Organizational Units (OUs)
-* Aplicación de Service Control Policies
-* Centralización de logs
-* Separación de entornos (Dev / Prod)
+* OUs
+* SCPs
+* Separación de entornos
+* Centralización de seguridad
 
 ---
-## 🚀 Arquitectura de Alta Disponibilidad en AWS (ECS + ALB + Auto Scaling + SNS)
 
-Diseño e implementación de una arquitectura altamente disponible en AWS utilizando contenedores y escalamiento automático.
+## 🚀 Arquitectura HA en AWS (ECS + ALB + Auto Scaling)
 
-Incluye:
+* ECS Fargate
+* Load Balancer
+* Auto Scaling
+* CloudWatch + SNS
 
-* ECS Fargate distribuido en múltiples Availability Zones
-* Application Load Balancer (ALB) para balanceo de tráfico
-* Auto Scaling basado en métricas de CPU
-* Arquitectura tolerante a fallos (self-healing)
-* Monitoreo con CloudWatch
-* Notificaciones por email con SNS
-   
+---
+
 ## 🌐 VPC Peering Cross-Account
 
-Implementación de conectividad privada entre cuentas AWS.
-
-Incluye:
-
-* Diseño de CIDR
-* Configuración de VPC Peering
-* Gestión de Route Tables
-* Comunicación privada entre cuentas
+* Conectividad privada entre cuentas
+* Routing avanzado
 
 ---
 
-## 🔁 AWS S3 Cross-Account Access & Sync
+## 🔁 S3 Cross-Account Access
 
-Configuración de acceso entre cuentas para buckets S3.
-
-Incluye:
-
-* Bucket Policies
 * IAM Roles
-* Acceso seguro cross-account
-* Sincronización con AWS CLI
+* Bucket Policies
+* Sincronización segura
 
 ---
 
-## 🐳 CI/CD Pipeline for Containerized Applications (AWS)
-
-GitHub → CodeBuild → ECR → ECS Fargate
-
-Pipeline automatizado para despliegue de contenedores.
-
-Incluye:
+## 🐳 CI/CD Contenedores (GitHub → Jenkins → Docker)
 
 * Build automático
-* Push a ECR
-* Deploy en ECS Fargate
-* Automatización CI/CD
+* Deploy continuo
+* Pipeline completo
 
 ---
 
-## 🛡 AWS WAF – Geo Blocking
+## 🛡 AWS WAF Geo Blocking
 
-Implementación de reglas de seguridad para bloquear tráfico por ubicación geográfica.
-
-Incluye:
-
-* Creación de Web ACL
-* Geo Match Rules
-* Protección de aplicaciones web
+* Protección por geolocalización
+* Web ACLs
 
 ---
 
-## ⏰ RDS Auto Start/Stop Automation
+## ⏰ Automatización RDS (Lambda + EventBridge)
 
-Optimización de costos mediante automatización de bases de datos.
-
-Incluye:
-
-* AWS Lambda
-* Amazon EventBridge
-* Programación automática de apagado y encendido
+* Encendido/apagado automático
+* Optimización de costos
 
 ---
 
-## 💰 Cloud Cost Analysis & Remediation (FinOps)
+## 💰 FinOps en AWS
 
-Análisis de consumo de recursos en AWS.
-
-Incluye:
-
-* AWS Cost Explorer
-* Identificación de recursos costosos
-* Aplicación de optimizaciones
-* Automatización de ahorro de costos
+* Cost Explorer
+* Optimización de recursos
+* Automatización de ahorro
 
 ---
 
-# 🖥 Proyectos de Infraestructura & Automatización
+# 🖥 Infraestructura & DevOps
 
-## 🛡 Implementación de SIEM con Wazuh en Proxmox
+## 🛡 SIEM con Wazuh
 
-Despliegue de plataforma SIEM para monitoreo de seguridad.
-
-Incluye:
-
-* Wazuh Manager
-* Wazuh Indexer (OpenSearch)
-* Wazuh Dashboard
-* Agente Windows
-* Monitoreo de eventos de seguridad
-* Alertas por intentos fallidos de login
+* Monitoreo de seguridad
+* Alertas
+* Logs centralizados
 
 ---
-## 📊 Zabbix 7.4 Monitoring & Alerting Platform (AWS EC2)
 
-Despliegue de plataforma de monitoreo empresarial utilizando Zabbix 7.4 sobre AWS EC2 con agentes en Linux y Windows.
+## 📊 Zabbix Monitoring Platform
 
-Incluye:
-
-* Implementación de Zabbix Server en EC2 (Ubuntu Server)
-* Configuración de base de datos MySQL
-* Apertura y gestión de puertos (10050 / 10051)
-* Instalación de agentes en Linux y Windows
-* Monitoreo de infraestructura en tiempo real
-* Configuración de hosts y templates
-* Notificaciones en tiempo real vía Telegram
-* Detección proactiva de incidentes (CPU, memoria, disponibilidad de servicios)
-* Reducción del MTTR mediante alertamiento automatizado
-* Mejora en la visibilidad del estado y rendimiento de la infraestructura
-* Arquitectura escalable para entornos productivos
-* Monitoreo de disponibilidad de servicios y health checks
+* Monitoreo Linux/Windows
+* Alertas en Telegram
+* Detección proactiva
 
 ---
-## 🐳 Docker Swarm en Proxmox VE
 
-Cluster de contenedores desplegado sobre máquinas virtuales en Proxmox.
+## 🐳 Docker Swarm
 
-Incluye:
-
-* Manager Node
-* Worker Nodes
-* Escalamiento horizontal
-* Rolling updates
+* Cluster distribuido
 * Alta disponibilidad
 
 ---
 
-## ⚙️ Automatización con Ansible en Proxmox VE
+## ⚙️ Ansible Automation
 
-Provisionamiento automatizado de infraestructura.
-
-Incluye:
-
-* Creación automática de VMs
-* Conexión SSH remota
-* API Tokens
+* Provisionamiento automático
 * Playbooks idempotentes
-* Gestión de roles
 
 ---
 
-## 🚀 CI/CD Pipeline Jenkins + Proxmox + Docker
+## 🚀 CI/CD Jenkins + Docker
 
-Pipeline CI/CD implementado sobre una VM en Proxmox.
-
-Arquitectura del proyecto:
-
-Developer → GitHub → Jenkins → Docker Build → Deploy API
-
-Incluye:
-
-* Instalación de Jenkins en VM Ubuntu
-* Integración con repositorio GitHub
-* Pipeline automatizado
-* Construcción de contenedor Docker
-* Deploy de API
-* Pruebas de endpoint
+* Pipeline completo
+* Deploy automatizado
 
 ---
 
 # 🛠 Skills Técnicos
 
-## ☁ Cloud Platforms
+## ☁ Cloud
+AWS, GCP, Azure, OCI
 
-* AWS (VPC, EC2, ECS Fargate, ECR, S3, IAM, WAF, Lambda, RDS, EventBridge, Organizations, ALB, Auto Scaling, CloudWatch, SNS)
-* Google Cloud Platform (Intermedio)
-* Microsoft Azure (Básico)
-* Oracle Cloud Infrastructure (Básico)
+## ☸️ Kubernetes
+kubeadm, containerd, Calico, OpenLens, metrics-server
 
----
+## 🔐 Seguridad
+IAM, SCPs, WAF, Hardening Linux, SIEM
 
-## 🔐 Seguridad en la Nube
+## 🔁 DevOps
+Docker, Jenkins, Ansible, CI/CD
 
-* IAM Policies & Roles
-* Service Control Policies
-* Security Groups
-* WAF Geo-Blocking
-* MFA
-* Principio de Mínimo Privilegio
-* SIEM con Wazuh
-* Monitoreo de logs
-* Monitoreo y alertamiento (CloudWatch + SNS)
-* Observabilidad básica en arquitecturas distribuidas
----
-
-## 🔁 DevOps & Automatización
-
-* Jenkins
-* AWS CodePipeline
-* AWS CodeBuild
-* CI/CD con GitHub
-* Docker
-* Ansible
-* AWS CLI
-* Automatización con Lambda
----
-
-## 📊 Observabilidad & Monitoreo
-
-* Zabbix (monitoreo de infraestructura, triggers, alertas, auto-descubrimiento, agentes Linux/Windows)
-* AWS CloudWatch (métricas, alarmas y dashboards)
-* AWS EventBridge (alertamiento basado en eventos e integraciones)
-* Monitoreo de logs y SIEM (Wazuh)
-* New Relic (APM, dashboards y alertamiento - certificación Foundation)
-* Datadog (métricas, dashboards y alertamiento - nivel Foundation)
-* Detección proactiva de incidentes y alertamiento en tiempo real (integración con Telegram)
-* Monitoreo de disponibilidad de servicios y health checks
----
+## 📊 Observabilidad
+Zabbix, CloudWatch, Metrics Server, New Relic, Datadog
 
 ## 🌐 Networking
-
-* VPC Peering
-* Diseño de CIDR
-* Route Tables
-* Arquitecturas multi-account
-* Networking en AWS
+VPC, Peering, Routing, Seguridad
 
 ---
 
-# 🎯 Enfoque Profesional
+# 🎯 Enfoque
 
-✔ Seguridad primero
-✔ Automatización como estándar
-✔ Gobernanza multi-cuenta
-✔ Optimización continua de costos
-✔ Arquitecturas escalables
-✔ Infraestructura híbrida Cloud + On-Premise
+✔ Seguridad primero  
+✔ Automatización como estándar  
+✔ Arquitecturas escalables  
+✔ Observabilidad completa  
+✔ Optimización continua  
 
 ---
+
 # 📈 Impacto
 
-* Implementación de monitoreo proactivo reduciendo tiempos de detección de incidentes  
-* Automatización de alertamiento mejorando la respuesta operativa  
-* Mejora de la confiabilidad y visibilidad de la infraestructura
-  
-# 📫 Contacto
-
-GitHub
-https://github.com/JonasCC8
-
-LinkedIn
-https://www.linkedin.com/in/jonas-carrillo-33389025/
+* Reducción de tiempos de detección de incidentes  
+* Automatización de operaciones  
+* Mejora de disponibilidad y seguridad  
 
 ---
 
-> Construyendo entornos en la nube y on-premise seguros, escalables y automatizados.
+# 📫 Contacto
+
+GitHub  
+https://github.com/JonasCC8  
+
+LinkedIn  
+https://www.linkedin.com/in/jonas-carrillo-33389025/  
+
+---
+
+> Construyendo infraestructura segura, escalable y lista para producción ☁️🚀
 
 
