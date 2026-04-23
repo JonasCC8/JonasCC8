@@ -42,7 +42,7 @@ Experiencia práctica en:
 🛡 Seguridad y hardening de sistemas Linux  
 🐳 Contenedores con Docker y Kubernetes  
 ⚙️ CI/CD automatizado con Jenkins  
-🖥 Infraestructura on-premise y Cloud
+🖥 Infraestructura on-premise y Cloud  
 📈 Optimización de costos (FinOps)  
 
 ---
