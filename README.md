@@ -49,6 +49,13 @@ Experiencia práctica en:
 
 # 🏗 Proyectos Destacados
 
+### 🔐 Zero Trust Architecture en AWS
+Modelo de seguridad moderno basado en verificación continua, mínimo privilegio y segmentación de red en AWS  
+Incluye IAM, VPC segura, SSM sin SSH, monitoreo y detección de amenazas  
+🔗 https://github.com/JonasCC8/Zero-Trust-Architecture-en-AWS
+
+---
+
 ### ☁️ AWS Storage Gateway (File Gateway)
 Arquitectura cloud-native de almacenamiento con integración a S3 mediante NFS  
 🔗 https://github.com/JonasCC8/AWS-Storage-Gateway-File-Gateway-Cloud-Native-Deployment
@@ -172,7 +179,7 @@ AWS, GCP, Azure, OCI
 kubeadm, containerd, Calico, OpenLens, metrics-server  
 
 ## 🔐 Seguridad
-IAM, SCPs, WAF, Hardening Linux, SIEM  
+IAM, SCPs, WAF, Hardening Linux, Zero Trust  
 
 ## 🔁 DevOps
 Docker, Jenkins, Ansible, CI/CD  
