@@ -263,7 +263,7 @@ IAM | SCPs | WAF | Zero Trust | Hardening
 Docker | Jenkins | Ansible | CI/CD  
 
 ### 📊 Observabilidad
-CloudWatch | Prometheus | Grafana | Zabbix  
+CloudWatch | Prometheus | Grafana | Zabbix  | New Relic  |  Datadog
 
 ### 🌐 Networking
 VPC | Peering | Routing | Security  
