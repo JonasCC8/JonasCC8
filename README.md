@@ -52,6 +52,8 @@ Arquitectura de seguridad moderna basada en **verificación continua, mínimo pr
 ✔ Auditoría completa de accesos  
 ✔ Cumplimiento de buenas prácticas cloud  
 
+🔗 https://github.com/JonasCC8/Zero-Trust-Architecture-en-AWS
+
 ---
 
 ## ☁️ AWS Storage Gateway (File Gateway)
