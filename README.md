@@ -34,7 +34,7 @@ Experiencia práctica en:
 
 🔐 Arquitecturas AWS multi-cuenta con Organizations  
 ☁ Diseño de arquitecturas altamente disponibles (HA)  
-📊 Observabilidad con Zabbix, CloudWatch y métricas en Kubernetes  
+📊 Observabilidad con Zabbix, CloudWatch y Kubernetes  
 📡 Monitoreo y alertamiento proactivo  
 🧯 Troubleshooting en entornos productivos  
 ⚖️ Balanceo de carga (ALB / Kubernetes Services)  
@@ -42,187 +42,146 @@ Experiencia práctica en:
 🛡 Seguridad y hardening de sistemas Linux  
 🐳 Contenedores con Docker y Kubernetes  
 ⚙️ CI/CD automatizado con Jenkins  
-🖥 Infraestructura on-premise y Cloud  
+🖥 Infraestructura híbrida (Cloud + On-Premise)  
 📈 Optimización de costos (FinOps)  
 
 ---
 
 # 🏗 Proyectos Destacados
 
-## 🔐 Linux Server Hardening (Enterprise Security)
-
-Endurecimiento completo de servidores Linux enfocado a producción.
-
-Incluye:
-
-* Deshabilitación de acceso root por SSH
-* Autenticación con llaves
-* Firewall UFW
-* Protección contra ataques con Fail2ban
-* Auditoría con auditd
-* Hardening del kernel (sysctl)
-* Control de permisos críticos
-* Seguridad en servicios
-* Hardening de PostgreSQL
-* Monitoreo de logs
-
-🔎 Enfoque: Seguridad, cumplimiento y reducción de superficie de ataque
+### ☁️ AWS Storage Gateway (File Gateway)
+Arquitectura cloud-native de almacenamiento con integración a S3 mediante NFS  
+🔗 https://github.com/JonasCC8/AWS-Storage-Gateway-File-Gateway-Cloud-Native-Deployment
 
 ---
 
-## ☸️ Kubernetes Cluster (kubeadm + containerd + OpenLens)
-
-Implementación de clúster Kubernetes desde cero en Ubuntu Server.
-
-Incluye:
-
-* Instalación de Kubernetes con kubeadm
-* Configuración de containerd como runtime
-* Resolución de errores reales:
-  - Swap activo (kubelet failure)
-  - CRI no disponible
-  - cgroups
-* Inicialización del cluster
-* Instalación de red (Calico)
-* Deploy de aplicación (NGINX)
-* Exposición con NodePort
-* Integración con OpenLens
-* Instalación de metrics-server
-* Monitoreo de CPU y memoria (`kubectl top`)
-
-🔎 Enfoque: Infraestructura real tipo producción + troubleshooting
+### ☸️ Kubernetes Cluster (kubeadm + containerd + OpenLens)
+Cluster Kubernetes desde cero con troubleshooting real y monitoreo  
+🔗 https://github.com/JonasCC8/Kubernetes-Cluster-Setup-with-kubeadm-containerd-OpenLens
 
 ---
 
-## 🛡 AWS IAM Security 
-
-* Políticas personalizadas
-* Roles y usuarios
-* Mínimo privilegio
+### 🔐 Linux Server Hardening
+Endurecimiento completo de servidores Linux enfocado a producción  
+🔗 https://github.com/JonasCC8/Server-Hardening-Guide
 
 ---
 
-## 🏢 AWS Organizations – Multi-Account Governance
-
-* OUs
-* SCPs
-* Separación de entornos
-* Centralización de seguridad
+### 📊 Zabbix Monitoring en AWS
+Monitoreo empresarial con alertas y agentes Linux/Windows  
+🔗 https://github.com/JonasCC8/Instalaci-n-de-Zabbix-7.4-en-AWS-EC2-Ubuntu-Server-Agentes-Windows-y-Linux
 
 ---
 
-## 🚀 Arquitectura HA en AWS (ECS + ALB + Auto Scaling)
-
-* ECS Fargate
-* Load Balancer
-* Auto Scaling
-* CloudWatch + SNS
+### 🔐 OpenVPN en AWS
+Implementación de acceso seguro remoto en AWS  
+🔗 https://github.com/JonasCC8/OpenVPN-en-AWS-Regi-n-Oregon-us-west-2-
 
 ---
 
-## 🌐 VPC Peering Cross-Account
-
-* Conectividad privada entre cuentas
-* Routing avanzado
-
----
-
-## 🔁 S3 Cross-Account Access
-
-* IAM Roles
-* Bucket Policies
-* Sincronización segura
+### 🚀 Arquitectura HA en AWS
+Alta disponibilidad con ALB + Auto Scaling + ECS  
+🔗 https://github.com/JonasCC8/Arquitectura-de-Alta-Disponibilidad-en-AWS
 
 ---
 
-## 🐳 CI/CD Contenedores (GitHub → Jenkins → Docker)
-
-* Build automático
-* Deploy continuo
-* Pipeline completo
+### 🐳 CI/CD Jenkins + Docker
+Pipeline completo de integración y despliegue continuo  
+🔗 https://github.com/JonasCC8/CI-CD-con-Jenkins-Proxmox-Docker-Deploy-de-API-
 
 ---
 
-## 🛡 AWS WAF Geo Blocking
-
-* Protección por geolocalización
-* Web ACLs
-
----
-
-## ⏰ Automatización RDS (Lambda + EventBridge)
-
-* Encendido/apagado automático
-* Optimización de costos
+### 🛡 SIEM con Wazuh
+Implementación de monitoreo de seguridad centralizado  
+🔗 https://github.com/JonasCC8/Implementing-SIEM-with-Wazuh-in-Proxmox
 
 ---
 
-## 💰 FinOps en AWS
-
-* Cost Explorer
-* Optimización de recursos
-* Automatización de ahorro
+### ⚙️ Automatización con Ansible
+Provisionamiento automático de infraestructura  
+🔗 https://github.com/JonasCC8/Automatizaci-n-con-Ansible-en-Proxmox-VE
 
 ---
 
-# 🖥 Infraestructura & DevOps
-
-## 🛡 SIEM con Wazuh
-
-* Monitoreo de seguridad
-* Alertas
-* Logs centralizados
+### 🐳 Docker Swarm Cluster
+Cluster de contenedores con alta disponibilidad  
+🔗 https://github.com/JonasCC8/Docker-Swarm-en-Proxmox-VE
 
 ---
 
-## 📊 Zabbix Monitoring Platform
-
-* Monitoreo Linux/Windows
-* Alertas en Telegram
-* Detección proactiva
+### 💰 FinOps en AWS
+Optimización de costos con Cost Explorer  
+🔗 https://github.com/JonasCC8/AWS-Cost-Analysis-Remediation-Cost-Explorer
 
 ---
 
-## 🐳 Docker Swarm
-
-* Cluster distribuido
-* Alta disponibilidad
-
----
-
-## ⚙️ Ansible Automation
-
-* Provisionamiento automático
-* Playbooks idempotentes
+### ⏰ Automatización RDS
+Encendido/apagado automático con Lambda  
+🔗 https://github.com/JonasCC8/AWS-RDS-Auto-Stop-Start-7-PM-7-AM-
 
 ---
 
-## 🚀 CI/CD Jenkins + Docker
+### 🔁 S3 Cross-Account
+Acceso seguro entre cuentas AWS  
+🔗 https://github.com/JonasCC8/AWS-S3-Cross-Account-Access-Sync
 
-* Pipeline completo
-* Deploy automatizado
+---
+
+### 🐳 Deploy Contenedores AWS
+Integración GitHub + ECS + ECR  
+🔗 https://github.com/JonasCC8/AWS-Container-Deployment-with-GitHub-Integration
+
+---
+
+### 🏢 AWS Organizations
+Arquitectura multi-cuenta con gobernanza  
+🔗 https://github.com/JonasCC8/AWS-Multi-Account-Architecture-with-AWS-Organizations
+
+---
+
+### 🌐 VPC Peering
+Conectividad privada entre cuentas  
+🔗 https://github.com/JonasCC8/AWS-VPC-Peering-Cross-Account
+
+---
+
+### 🔔 Automatización Notificaciones
+Pipeline con SNS + Lambda  
+🔗 https://github.com/JonasCC8/AWS-CodePipeline-SNS-Lambda-Slack-Notifications
+
+---
+
+### 🛡 WAF Geo Blocking
+Protección por geolocalización  
+🔗 https://github.com/JonasCC8/WAF-Block-Region-Asia-
+
+---
+
+### 🔐 IAM Security Lab
+Control de accesos y políticas seguras  
+🔗 https://github.com/JonasCC8/aws-iam-security-lab
 
 ---
 
 # 🛠 Skills Técnicos
 
 ## ☁ Cloud
-AWS, GCP, Azure, OCI
+AWS, GCP, Azure, OCI  
 
 ## ☸️ Kubernetes
-kubeadm, containerd, Calico, OpenLens, metrics-server
+kubeadm, containerd, Calico, OpenLens, metrics-server  
 
 ## 🔐 Seguridad
-IAM, SCPs, WAF, Hardening Linux, SIEM
+IAM, SCPs, WAF, Hardening Linux, SIEM  
 
 ## 🔁 DevOps
-Docker, Jenkins, Ansible, CI/CD
+Docker, Jenkins, Ansible, CI/CD  
 
 ## 📊 Observabilidad
-Zabbix, CloudWatch, Metrics Server, New Relic, Datadog
+Zabbix, CloudWatch, Prometheus, Grafana  
 
 ## 🌐 Networking
-VPC, Peering, Routing, Seguridad
+VPC, Peering, Routing, Seguridad  
 
 ---
 
@@ -238,7 +197,7 @@ VPC, Peering, Routing, Seguridad
 
 # 📈 Impacto
 
-* Reducción de tiempos de detección de incidentes  
+* Reducción del tiempo de detección de incidentes  
 * Automatización de operaciones  
 * Mejora de disponibilidad y seguridad  
 
