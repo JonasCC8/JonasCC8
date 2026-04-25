@@ -1,202 +1,285 @@
 <p align="center">
 
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
-![Security](https://img.shields.io/badge/Focus-Security-blue)
-![DevOps](https://img.shields.io/badge/DevOps-Automation-green)
-![Governance](https://img.shields.io/badge/AWS-Governance-232F3E)
+![AWS](https://img.shields.io/badge/AWS-Solutions%20Architect-FF9900)
+![Security](https://img.shields.io/badge/Security-Zero%20Trust-8B0000)
+![DevOps](https://img.shields.io/badge/DevOps-Automation-0A66C2)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Production-326CE5)
 ![FinOps](https://img.shields.io/badge/FinOps-Cost%20Optimization-5B2C6F)
-![Serverless](https://img.shields.io/badge/Architecture-Serverless-FF9900)
-![Networking](https://img.shields.io/badge/AWS-Networking-1E90FF)
-![IAM](https://img.shields.io/badge/Security-IAM%20Least%20Privilege-8B0000)
-![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-Automated-blue)
-![Jenkins](https://img.shields.io/badge/CI%2FCD-Jenkins-D24939?logo=jenkins&logoColor=white)
-![Virtualization](https://img.shields.io/badge/Virtualization-Proxmox-E57000)
-![Automation](https://img.shields.io/badge/Automation-Ansible-EE0000?logo=ansible&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-K8s-326CE5?logo=kubernetes&logoColor=white)
-![Observability](https://img.shields.io/badge/Observability-Monitoring-purple)
-![Profile Views](https://komarev.com/ghpvc/?username=JonasCC8&color=blue)
+![Observability](https://img.shields.io/badge/Observability-Advanced-purple)
+![Status](https://img.shields.io/badge/Portfolio-Production%20Ready-success)
 
 </p>
 
-# ☁ Jonas Carrillo Carballo
+# ☁️ Jonas Carrillo Carballo
 
-## Cloud Infrastructure & SRE Engineer | AWS | DevOps | Kubernetes | Security | FinOps
+## AWS Cloud & Solutions Architect | SRE | DevOps | Kubernetes | Security | FinOps
 
-Ingeniero especializado en diseño, implementación y automatización de infraestructuras en la nube y on-premise, enfocado en alta disponibilidad, seguridad y observabilidad.
-
----
-
-# 🚀 Sobre Mí
-
-Experiencia práctica en:
-
-🔐 Arquitecturas AWS multi-cuenta con Organizations  
-☁ Diseño de arquitecturas altamente disponibles (HA)  
-📊 Observabilidad con Zabbix, CloudWatch y Kubernetes  
-📡 Monitoreo y alertamiento proactivo  
-🧯 Troubleshooting en entornos productivos  
-⚖️ Balanceo de carga (ALB / Kubernetes Services)  
-🌐 Networking avanzado  
-🛡 Seguridad y hardening de sistemas Linux  
-🐳 Contenedores con Docker y Kubernetes  
-⚙️ CI/CD automatizado con Jenkins  
-🖥 Infraestructura híbrida (Cloud + On-Premise)  
-📈 Optimización de costos (FinOps)  
+Arquitecto enfocado en diseño de soluciones cloud seguras, escalables y optimizadas en costos, con experiencia práctica en entornos productivos y troubleshooting real.
 
 ---
 
-# 🏗 Proyectos Destacados
+# 🧠 Arquitectura & Enfoque
 
-### 🔐 Zero Trust Architecture en AWS
-Modelo de seguridad moderno basado en verificación continua, mínimo privilegio y segmentación de red en AWS  
-Incluye IAM, VPC segura, SSM sin SSH, monitoreo y detección de amenazas  
+- 🔐 Seguridad basada en Zero Trust  
+- ☁️ Arquitecturas cloud-native en AWS  
+- ⚙️ Automatización e Infraestructura como Código  
+- 📊 Observabilidad completa (metrics, logs, tracing)  
+- 📈 Optimización continua de costos (FinOps)  
+- 🧯 Resolución de incidentes en producción  
+
+---
+
+# 🚀 Proyectos de Arquitectura Cloud
+
+---
+
+## 🔐 Zero Trust Architecture en AWS (⭐ Proyecto Clave)
+
+Arquitectura de seguridad moderna basada en **verificación continua, mínimo privilegio y segmentación de red**.
+
+### 🔎 Componentes:
+- IAM con roles y MFA  
+- Acceso sin SSH (SSM Session Manager)  
+- VPC segmentada (public / private)  
+- Security Groups restrictivos  
+- S3 cifrado + políticas de acceso  
+- CloudTrail + CloudWatch  
+- GuardDuty (detección de amenazas)  
+
+### 🎯 Impacto:
+✔ Eliminación de accesos innecesarios  
+✔ Reducción de superficie de ataque  
+✔ Auditoría completa de accesos  
+✔ Cumplimiento de buenas prácticas cloud  
+
+📌 Arquitectura:
+
+<p align="center">
+  <img src=zero-trust-aws.png" width="900">
+</p>
+
 🔗 https://github.com/JonasCC8/Zero-Trust-Architecture-en-AWS
 
 ---
 
-### ☁️ AWS Storage Gateway (File Gateway)
-Arquitectura cloud-native de almacenamiento con integración a S3 mediante NFS  
+## ☁️ AWS Storage Gateway (File Gateway)
+
+Arquitectura de almacenamiento híbrido cloud-native con integración a S3.
+
+✔ Acceso vía NFS  
+✔ Persistencia en S3  
+✔ Escalable y altamente disponible  
+
 🔗 https://github.com/JonasCC8/AWS-Storage-Gateway-File-Gateway-Cloud-Native-Deployment
 
 ---
 
-### ☸️ Kubernetes Cluster (kubeadm + containerd + OpenLens)
-Cluster Kubernetes desde cero con troubleshooting real y monitoreo  
-🔗 https://github.com/JonasCC8/Kubernetes-Cluster-Setup-with-kubeadm-containerd-OpenLens
+## 🚀 Arquitectura HA en AWS
 
----
+Alta disponibilidad con:
 
-### 🔐 Linux Server Hardening
-Endurecimiento completo de servidores Linux enfocado a producción  
-🔗 https://github.com/JonasCC8/Server-Hardening-Guide
+- ALB  
+- Auto Scaling  
+- ECS Fargate  
+- CloudWatch + SNS  
 
----
+🎯 Enfoque: resiliencia y escalabilidad
 
-### 📊 Zabbix Monitoring en AWS
-Monitoreo empresarial con alertas y agentes Linux/Windows  
-🔗 https://github.com/JonasCC8/Instalaci-n-de-Zabbix-7.4-en-AWS-EC2-Ubuntu-Server-Agentes-Windows-y-Linux
-
----
-
-### 🔐 OpenVPN en AWS
-Implementación de acceso seguro remoto en AWS  
-🔗 https://github.com/JonasCC8/OpenVPN-en-AWS-Regi-n-Oregon-us-west-2-
-
----
-
-### 🚀 Arquitectura HA en AWS
-Alta disponibilidad con ALB + Auto Scaling + ECS  
 🔗 https://github.com/JonasCC8/Arquitectura-de-Alta-Disponibilidad-en-AWS
 
 ---
 
-### 🐳 CI/CD Jenkins + Docker
-Pipeline completo de integración y despliegue continuo  
-🔗 https://github.com/JonasCC8/CI-CD-con-Jenkins-Proxmox-Docker-Deploy-de-API-
+## 🔐 OpenVPN en AWS
+
+Implementación de acceso remoto seguro en AWS
+
+✔ VPN segura  
+✔ Acceso controlado  
+✔ Integración con VPC  
+
+🔗 https://github.com/JonasCC8/OpenVPN-en-AWS-Regi-n-Oregon-us-west-2-
 
 ---
 
-### 🛡 SIEM con Wazuh
-Implementación de monitoreo de seguridad centralizado  
-🔗 https://github.com/JonasCC8/Implementing-SIEM-with-Wazuh-in-Proxmox
+## 🔁 S3 Cross-Account Architecture
 
----
+Arquitectura segura entre cuentas AWS
 
-### ⚙️ Automatización con Ansible
-Provisionamiento automático de infraestructura  
-🔗 https://github.com/JonasCC8/Automatizaci-n-con-Ansible-en-Proxmox-VE
+✔ IAM Roles  
+✔ Bucket Policies  
+✔ Sincronización controlada  
 
----
-
-### 🐳 Docker Swarm Cluster
-Cluster de contenedores con alta disponibilidad  
-🔗 https://github.com/JonasCC8/Docker-Swarm-en-Proxmox-VE
-
----
-
-### 💰 FinOps en AWS
-Optimización de costos con Cost Explorer  
-🔗 https://github.com/JonasCC8/AWS-Cost-Analysis-Remediation-Cost-Explorer
-
----
-
-### ⏰ Automatización RDS
-Encendido/apagado automático con Lambda  
-🔗 https://github.com/JonasCC8/AWS-RDS-Auto-Stop-Start-7-PM-7-AM-
-
----
-
-### 🔁 S3 Cross-Account
-Acceso seguro entre cuentas AWS  
 🔗 https://github.com/JonasCC8/AWS-S3-Cross-Account-Access-Sync
 
 ---
 
-### 🐳 Deploy Contenedores AWS
-Integración GitHub + ECS + ECR  
-🔗 https://github.com/JonasCC8/AWS-Container-Deployment-with-GitHub-Integration
+## 🏢 AWS Organizations (Multi-Account)
 
----
+Gobernanza empresarial en AWS
 
-### 🏢 AWS Organizations
-Arquitectura multi-cuenta con gobernanza  
+✔ OUs  
+✔ SCPs  
+✔ Separación de entornos  
+✔ Seguridad centralizada  
+
 🔗 https://github.com/JonasCC8/AWS-Multi-Account-Architecture-with-AWS-Organizations
 
 ---
 
-### 🌐 VPC Peering
-Conectividad privada entre cuentas  
-🔗 https://github.com/JonasCC8/AWS-VPC-Peering-Cross-Account
+# ☸️ Kubernetes & Platform Engineering
 
 ---
 
-### 🔔 Automatización Notificaciones
-Pipeline con SNS + Lambda  
-🔗 https://github.com/JonasCC8/AWS-CodePipeline-SNS-Lambda-Slack-Notifications
+## ☸️ Kubernetes Cluster (kubeadm + containerd)
+
+Cluster productivo con troubleshooting real:
+
+- Configuración completa desde cero  
+- Resolución de errores críticos (swap, CRI, cgroups)  
+- Deploy de aplicaciones (NGINX)  
+- Exposición con NodePort  
+- Monitoreo con metrics-server  
+- Visualización con OpenLens  
+
+🔗 https://github.com/JonasCC8/Kubernetes-Cluster-Setup-with-kubeadm-containerd-OpenLens
 
 ---
 
-### 🛡 WAF Geo Blocking
-Protección por geolocalización  
-🔗 https://github.com/JonasCC8/WAF-Block-Region-Asia-
+# 🔐 Seguridad & Observabilidad
 
 ---
 
-### 🔐 IAM Security Lab
-Control de accesos y políticas seguras  
-🔗 https://github.com/JonasCC8/aws-iam-security-lab
+## 🛡 Linux Server Hardening
+
+Endurecimiento de servidores Linux para producción:
+
+✔ SSH seguro  
+✔ Fail2ban  
+✔ Firewall UFW  
+✔ auditd  
+✔ Hardening kernel  
+
+🔗 https://github.com/JonasCC8/Server-Hardening-Guide
+
+---
+
+## 📊 Zabbix Monitoring en AWS
+
+Plataforma de monitoreo empresarial:
+
+✔ Métricas Linux/Windows  
+✔ Alertas automatizadas  
+✔ Integración cloud  
+
+🔗 https://github.com/JonasCC8/Instalaci-n-de-Zabbix-7.4-en-AWS-EC2-Ubuntu-Server-Agentes-Windows-y-Linux
+
+---
+
+## 🛡 SIEM con Wazuh
+
+Detección de amenazas y monitoreo de seguridad:
+
+✔ Logs centralizados  
+✔ Alertas de seguridad  
+✔ Visibilidad completa  
+
+🔗 https://github.com/JonasCC8/Implementing-SIEM-with-Wazuh-in-Proxmox
+
+---
+
+# ⚙️ DevOps & Automatización
+
+---
+
+## 🐳 CI/CD Jenkins + Docker
+
+Pipeline completo:
+
+✔ Build automático  
+✔ Deploy continuo  
+✔ Integración con contenedores  
+
+🔗 https://github.com/JonasCC8/CI-CD-con-Jenkins-Proxmox-Docker-Deploy-de-API-
+
+---
+
+## ⚙️ Automatización con Ansible
+
+Infraestructura automatizada:
+
+✔ Playbooks idempotentes  
+✔ Provisionamiento automático  
+
+🔗 https://github.com/JonasCC8/Automatizaci-n-con-Ansible-en-Proxmox-VE
+
+---
+
+## 🐳 Docker Swarm Cluster
+
+Cluster distribuido:
+
+✔ Alta disponibilidad  
+✔ Balanceo de carga  
+
+🔗 https://github.com/JonasCC8/Docker-Swarm-en-Proxmox-VE
+
+---
+
+# 💰 FinOps & Optimización
+
+---
+
+## 💰 AWS Cost Optimization
+
+Optimización de costos:
+
+✔ Cost Explorer  
+✔ Automatización  
+✔ Reducción de gastos  
+
+🔗 https://github.com/JonasCC8/AWS-Cost-Analysis-Remediation-Cost-Explorer
+
+---
+
+## ⏰ Automatización RDS
+
+Encendido/apagado automático:
+
+✔ Lambda  
+✔ EventBridge  
+✔ Ahorro de costos  
+
+🔗 https://github.com/JonasCC8/AWS-RDS-Auto-Stop-Start-7-PM-7-AM-
 
 ---
 
 # 🛠 Skills Técnicos
 
-## ☁ Cloud
-AWS, GCP, Azure, OCI  
+### ☁ Cloud
+AWS | GCP | Azure | OCI  
 
-## ☸️ Kubernetes
-kubeadm, containerd, Calico, OpenLens, metrics-server  
+### ☸️ Kubernetes
+kubeadm | containerd | Calico | OpenLens  
 
-## 🔐 Seguridad
-IAM, SCPs, WAF, Hardening Linux, Zero Trust  
+### 🔐 Seguridad
+IAM | SCPs | WAF | Zero Trust | Hardening  
 
-## 🔁 DevOps
-Docker, Jenkins, Ansible, CI/CD  
+### 🔁 DevOps
+Docker | Jenkins | Ansible | CI/CD  
 
-## 📊 Observabilidad
-Zabbix, CloudWatch, Prometheus, Grafana  
+### 📊 Observabilidad
+CloudWatch | Prometheus | Grafana | Zabbix  
 
-## 🌐 Networking
-VPC, Peering, Routing, Seguridad  
+### 🌐 Networking
+VPC | Peering | Routing | Security  
 
 ---
 
-# 🎯 Enfoque
+# 🎯 Enfoque Profesional
 
 ✔ Seguridad primero  
 ✔ Automatización como estándar  
-✔ Arquitecturas escalables  
+✔ Arquitecturas resilientes  
 ✔ Observabilidad completa  
 ✔ Optimización continua  
 
@@ -204,22 +287,23 @@ VPC, Peering, Routing, Seguridad
 
 # 📈 Impacto
 
-* Reducción del tiempo de detección de incidentes  
-* Automatización de operaciones  
-* Mejora de disponibilidad y seguridad  
+- Reducción del tiempo de detección de incidentes  
+- Mejora en disponibilidad y seguridad  
+- Automatización de operaciones críticas  
+- Optimización de costos en cloud  
 
 ---
 
 # 📫 Contacto
 
-GitHub  
+🔗 GitHub  
 https://github.com/JonasCC8  
 
-LinkedIn  
+🔗 LinkedIn  
 https://www.linkedin.com/in/jonas-carrillo-33389025/  
 
 ---
 
-> Construyendo infraestructura segura, escalable y lista para producción ☁️🚀
+> Diseñando infraestructura cloud segura, escalable y lista para producción ☁️🚀
 
 
