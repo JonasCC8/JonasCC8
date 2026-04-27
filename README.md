@@ -258,6 +258,19 @@ Pipeline automatizado de despliegue de contenedores en AWS.
 
 ---
 
+## 🔔 Notificaciones Automatizadas (CodePipeline + SNS + Lambda + Slack)
+
+Arquitectura de notificaciones en tiempo real para eventos de CI/CD utilizando servicios serverless en AWS.
+
+- AWS CodePipeline (orquestación CI/CD)  
+- Amazon SNS (mensajería)  
+- AWS Lambda (procesamiento de eventos)  
+- Integración con Slack (alertas en tiempo real)
+
+🔗 https://github.com/JonasCC8/AWS-CodePipeline-SNS-Lambda-Slack-Notifications
+
+---
+
 ## ⚙️ Automatización con Ansible
 
 Infraestructura automatizada:
