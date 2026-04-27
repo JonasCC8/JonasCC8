@@ -125,9 +125,19 @@ Gobernanza empresarial en AWS
 
 ---
 
-## ☸️ Kubernetes Cluster (kubeadm + containerd)
+## ☸️ Kubernetes RabbitMQ Messaging System (Event-Driven Architecture)
 
-Cluster productivo con troubleshooting real:
+Sistema distribuido basado en mensajería asincrónica utilizando Kubernetes y RabbitMQ, implementando el patrón **Producer–Consumer**.
+
+### 🔎 Componentes
+
+- 🐇 RabbitMQ como Message Broker  
+- 📤 Producer (Kubernetes Job)  
+- 📥 Consumer (Deployment escalable)  
+- ⚙️ ConfigMap para desacoplar código  
+- 🌐 Comunicación interna vía DNS (`svc.cluster.local`)
+
+## ☸️ Kubernetes Cluster (kubeadm + containerd)
 
 - Configuración completa desde cero  
 - Resolución de errores críticos (swap, CRI, cgroups)  
