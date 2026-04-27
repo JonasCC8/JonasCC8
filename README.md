@@ -57,6 +57,30 @@ Arquitectura de seguridad moderna basada en **verificación continua, mínimo pr
 
 ---
 
+## 🔐 IAM Security Lab
+
+Laboratorio práctico de control de accesos en AWS.
+
+✔ Políticas IAM  
+✔ Principio de mínimo privilegio  
+✔ Escenarios reales de acceso  
+
+🔗 https://github.com/JonasCC8/aws-iam-security-lab
+
+---
+
+## 🌍 WAF Geo Blocking
+
+Protección de aplicaciones mediante restricción geográfica.
+
+✔ AWS WAF  
+✔ Seguridad por región  
+✔ Reducción de ataques  
+
+🔗 https://github.com/JonasCC8/WAF-Block-Region-Asia-
+
+---
+
 ## ☁️ AWS Storage Gateway (File Gateway)
 
 Arquitectura de almacenamiento híbrido cloud-native con integración a S3.
@@ -66,6 +90,18 @@ Arquitectura de almacenamiento híbrido cloud-native con integración a S3.
 ✔ Escalable y altamente disponible  
 
 🔗 https://github.com/JonasCC8/AWS-Storage-Gateway-File-Gateway-Cloud-Native-Deployment
+
+---
+
+## 🌐 Networking Avanzado (VPC Peering)
+
+Comunicación privada entre entornos cloud.
+
+✔ Conectividad cross-account  
+✔ Seguridad en red  
+✔ Arquitectura distribuida  
+
+🔗 https://github.com/JonasCC8/AWS-VPC-Peering-Cross-Account
 
 ---
 
@@ -207,6 +243,18 @@ Pipeline completo:
 ✔ Integración con contenedores  
 
 🔗 https://github.com/JonasCC8/CI-CD-con-Jenkins-Proxmox-Docker-Deploy-de-API-
+
+---
+
+## 🔄 CI/CD Cloud-Native (GitHub + ECS + ECR)
+
+Pipeline automatizado de despliegue de contenedores en AWS.
+
+✔ Integración continua  
+✔ Deploy automatizado  
+✔ Contenedores en producción  
+
+🔗 https://github.com/JonasCC8/AWS-Container-Deployment-with-GitHub-Integration
 
 ---
 
