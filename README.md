@@ -137,6 +137,8 @@ Sistema distribuido basado en mensajería asincrónica utilizando Kubernetes y R
 - ⚙️ ConfigMap para desacoplar código  
 - 🌐 Comunicación interna vía DNS (`svc.cluster.local`)
 
+🔗 https://github.com/JonasCC8/Kubernetes-RabbitMQ-Messaging-System  
+
 ## ☸️ Kubernetes Cluster (kubeadm + containerd)
 
 - Configuración completa desde cero  
