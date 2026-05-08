@@ -57,7 +57,7 @@ Arquitectura de seguridad moderna basada en **verificación continua, mínimo pr
 
 ---
 
-## 🔐 IAM Security Lab
+## 🔐 IAM Security 
 
 Laboratorio práctico de control de accesos en AWS.
 
@@ -154,6 +154,28 @@ Gobernanza empresarial en AWS
 ✔ Seguridad centralizada  
 
 🔗 https://github.com/JonasCC8/AWS-Multi-Account-Architecture-with-AWS-Organizations
+
+---
+
+# ☁️ Google Cloup Plataform
+
+---
+
+# ☁️ Proyecto — Arquitectura HA + DR en Google Cloud Platform
+
+## 📌 Descripción
+Diseño e implementación de una arquitectura escalable, segura y altamente disponible en Google Cloud Platform (GCP) para aplicaciones críticas multi-sucursal.
+
+La solución contempla:
+- Alta disponibilidad multi-zona
+- Recuperación ante desastres (DR)
+- Balanceo global
+- Seguridad Zero Trust
+- Escalado automático
+- Observabilidad centralizada
+- Conectividad híbrida segura
+
+🔗 https://github.com/JonasCC8/Arquitectura-HA-DR-en-Google-Cloud-Platform-GCP-
 
 ---
 
