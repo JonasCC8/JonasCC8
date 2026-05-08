@@ -7,6 +7,7 @@
 ![FinOps](https://img.shields.io/badge/FinOps-Cost%20Optimization-5B2C6F)
 ![Observability](https://img.shields.io/badge/Observability-Advanced-purple)
 ![Status](https://img.shields.io/badge/Portfolio-Production%20Ready-success)
+![GCP](https://img.shields.io/badge/GCP-Google%20Cloud-4285F4?logo=googlecloud)
 ![Profile Views](https://komarev.com/ghpvc/?username=JonasCC8&color=blue)
 
 </p>
