@@ -387,12 +387,10 @@ VPC | Peering | Routing | Security
 
 # 📫 Contacto
 
-🔗 GitHub  
-https://github.com/JonasCC8  
+* 💻 **GitHub:** [JonasCC8](https://github.com/JonasCC8)
+* 💼 **LinkedIn:** [Jonás Carrillo Carballo](https://www.linkedin.com/in/jonás-carrillo-carballo-33389025)
 
-🔗 LinkedIn  
-[www.linkedin.com/in/jonás-carrillo-carballo-33389025
-](www.linkedin.com/in/jonás-carrillo-carballo-33389025)---
+---
 
 > Diseñando infraestructura cloud segura, escalable y lista para producción ☁️🚀
 
