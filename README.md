@@ -14,7 +14,7 @@
 
 # ☁️ Jonas Carrillo Carballo
 
-## Multi-Cloud & DevOps Architect | AWS | Azure | GCP | Kubernetes | Security | Observability | FinOps
+## Multi-Cloud & DevOps Architect | AWS | Azure | GCP | Security | Observability | FinOps
 
 Arquitecto enfocado en diseño de soluciones cloud seguras, escalables y optimizadas en costos, con experiencia práctica en entornos productivos y troubleshooting real.
 
